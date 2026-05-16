@@ -21,7 +21,7 @@
 # https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml
 # https://raw.githubusercontent.com/lflflf999/0516/main/BX-JD # 关闭，循环引用
 # https://raw.githubusercontent.com/Mr8AHAL/v2ray/main/SERVER.txt
-
+https://raw.githubusercontent.com/PuddinCat/BestClash/refs/heads/main/proxies.yaml
 https://cdn.jsdelivr.net/gh/vxiaov/free_proxies@main/clash/clash.provider.yaml
 https://freenode.openrunner.net/uploads/20240807-clash.yaml
 https://raw.githubusercontent.com/Misaka-blog/chromego_merge/main/sub/merged_proxies_new.yaml
