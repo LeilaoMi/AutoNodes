@@ -1,5 +1,207 @@
 proxies:
-- name: 13|TW_speednode_0034
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 2|🇹🇼 台湾
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39201
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: 15|Taiwan_Taichung_trojan_1124
+  network: grpc
+  password: 0a9f1f5a397bd427
+  port: 443
+  server: 125.227.86.47
+  skip-cert-verify: true
+  sni: TG.freecodes
+  type: trojan
+- grpc-opts:
+    grpc-service-name: db
+  name: 15|Taiwan_Taichung_trojan_1125
+  network: grpc
+  password: 3f5bc61547b1f0d9
+  port: 443
+  server: 125.227.86.47
+  skip-cert-verify: true
+  sni: TG.freecodes
+  tls: true
+  type: trojan
+- name: 15|Taiwan_Taipei_trojan_1126
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 16443
+  server: 114.32.9.249
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: 15|Taiwan_Taichung_trojan_1127
+  network: grpc
+  password: 3f5bc61547b1f0d9
+  port: 443
+  server: 125.227.86.48
+  skip-cert-verify: true
+  sni: TG.freecodes
+  type: trojan
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: 15|Taiwan_Taichung_trojan_1128
+  network: grpc
+  password: 3f5bc61547b1f0d9
+  port: 443
+  server: 125.227.86.46
+  skip-cert-verify: true
+  sni: TG.freecodes
+  type: trojan
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: 15|Taiwan_Taichung_trojan_1129
+  network: grpc
+  password: 0a9f1f5a397bd427
+  port: 443
+  server: 125.227.86.45
+  skip-cert-verify: true
+  sni: TG.freecodes
+  type: trojan
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers: {}
+    path:
+    - /ABCDE
+  name: 15|Taiwan_None_vmess_1134
+  network: http
+  port: 55386
+  server: 103.127.243.60
+  tls: false
+  type: vmess
+  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 15|Taiwan_None_vmess_1135
+  network: http
+  port: 58051
+  server: 103.127.243.55
+  tls: false
+  type: vmess
+  uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
+- cipher: aes-256-cfb
+  name: 26,27|SC-154.223.20.79-0184 | 0.053M...
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.223.20.79
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 26|🇹🇼TW-223.165.4.173-5053
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 223.165.4.173
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 26|🇹🇼TW-103.61.139.137-5077
+  network: ws
+  port: 20521
+  server: 103.61.139.137
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f8d93cfb-3d5d-447c-a697-16496dd74697
+  ws-opts:
+    headers:
+      host: ''
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 33|0| 01 | 1x TW
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 33|0|🇼台湾 02 | 1x TW
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 33|0|🇼台湾 03 | 1x TW
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 33|1|🇼 台湾 01 | 1x TW
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 33|1|🇹🇼 台湾 02 | 1x TW
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 33|1|🇼 台湾 03 | 1x TW
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 33|2,13|台湾|@ripaojiedian
+  network: ws
+  port: 46005
+  server: fadawtawd.zhangwei.li
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 33|12|🇼 台湾|@ripaojiedian
+  network: ws
+  port: 46005
+  server: fadawtawd.zhangwei.li
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: fadawtawd.zhangwei.li
+    path: /zh-cn
+- name: '37,38|TW_speednode_0034 #1'
   network: ws
   port: 17820
   server: s5.db-link.in

@@ -1,1 +1,812 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 1|SS-英国-NF解锁制剧-ChatGPT-TikTok-14...
+  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+  port: 443
+  server: 146.19.49.251
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 10,13,15,23,32|美国5|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '13|英国(yudou789.top 玉豆免费节点) #5'
+  network: ws
+  password: GKHWMe2R4q(yudou789.top )wNcNxu6l3KMkdd
+  port: 11313
+  server: 220.79.9.247
+  sni: vpn1.rnmcnm.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vpn1.rnmcnm.com
+    path: '%2Ftrj-ws'
+- name: 17|🇬🇧 GB 1 → tg@nicevpn123
+  password: your_password
+  port: 443
+  server: 52.56.183.187
+  skip-cert-verify: true
+  sni: aws-uk-london-1.f1rocketnode.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 10 → tg@nicevpn123
+  password: hBEBjXU6Sk0UK4T6
+  port: 443
+  server: 3.11.154.255
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 11 → tg@nicevpn123
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 185.172.113.182
+  type: ss
+  udp: true
+- name: 17|🇬🇧 GB 12 → tg@nicevpn123
+  password: d0774966-fb63-4aca-9478-16c3f32be220
+  port: 443
+  server: waphk.mjt000.com
+  skip-cert-verify: true
+  sni: waphk.mjt000.com
+  type: trojan
+  udp: true
+- name: 17|🇬🇧 GB 13 → tg@nicevpn123
+  password: telegram-id-directvpn
+  port: 22222
+  server: 18.175.9.188
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 14 → tg@nicevpn123
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 141.11.189.239
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 17|🇬🇧 GB 15 → tg@nicevpn123
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 77.72.5.113
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 17|🇬🇧 GB 16 → tg@nicevpn123
+  port: 16833
+  server: 144.24.88.101
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
+- name: 17|🇬🇧 GB 17 → tg@nicevpn123
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 46527
+  server: 144.24.87.186
+  skip-cert-verify: true
+  sni: lovehjq.xyz
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 18 → tg@nicevpn123
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 185.172.113.182
+  type: ss
+  udp: true
+- name: 17|🇬🇧 GB 19 → tg@nicevpn123
+  password: dkCb8vhXc9GI
+  port: 17408
+  server: 18.130.65.10
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 2 → tg@nicevpn123
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 185.172.113.182
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 20 → tg@nicevpn123
+  password: yCoZBIVH3JIqeUXNdive9B
+  port: 45844
+  server: 51.145.47.225
+  type: ss
+  udp: true
+- name: 17|🇬🇧 GB 21 → tg@nicevpn123
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 46521
+  server: 144.24.87.186
+  skip-cert-verify: true
+  sni: lovehjq.xyz
+  type: trojan
+  udp: true
+- name: 17|🇬🇧 GB 22 → tg@nicevpn123
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.9.27.170
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: 17|🇬🇧 GB 23 → tg@nicevpn123
+  password: 1d7692c0-f51c-11ee-91eb-1239d0255272
+  port: 443
+  server: 51.38.65.155
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 24 → tg@nicevpn123
+  password: 1Bukuyf171ArbKaXSvaSf9
+  port: 40933
+  server: 51.145.20.109
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 17|🇬🇧 GB 25 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 213.35.113.150
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 26 → tg@nicevpn123
+  password: QQgNHAq1zAzjVSjMSTp8Rt
+  port: 62801
+  server: 52.151.77.88
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 27 → tg@nicevpn123
+  password: Bog0ELmMM9DSxDdQ
+  port: 443
+  server: 52.56.201.59
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 28 → tg@nicevpn123
+  password: hS5KwcNlwufMFEScwyjVkz
+  port: 32755
+  server: 51.141.230.84
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 17|🇬🇧 GB 29 → tg@nicevpn123
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 51.68.206.229
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 17|🇬🇧 GB 3 → tg@nicevpn123
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 145.239.6.202
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 30 → tg@nicevpn123
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 141.11.189.88
+  type: ss
+  udp: true
+- name: 17|🇬🇧 GB 31 → tg@nicevpn123
+  password: a1956156-b1d6-468e-b22f-59765172b07d
+  port: 443
+  server: hinet.mjt001.com
+  skip-cert-verify: true
+  sni: hinet.mjt001.com
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 17|🇬🇧 GB 32 → tg@nicevpn123
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 51.68.206.229
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 17|🇬🇧 GB 33 → tg@nicevpn123
+  password: Yc2CtrIz8L
+  port: 16899
+  server: 198.23.196.68
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 34 → tg@nicevpn123
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 185.172.113.182
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 35 → tg@nicevpn123
+  password: zjQs77eXK0zdfPFyLs95l6
+  port: 39271
+  server: 52.151.70.6
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 36 → tg@nicevpn123
+  password: 8z9R4FiU9Ttgpl6it_pJPw
+  port: 1080
+  server: 104.248.169.207
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 37 → tg@nicevpn123
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 185.172.113.182
+  type: ss
+  udp: true
+- name: 17|🇬🇧 GB 38 → tg@nicevpn123
+  password: telegram-id-directvpn
+  port: 22222
+  server: 35.178.45.128
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 39 → tg@nicevpn123
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 185.172.113.182
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 4 → tg@nicevpn123
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 185.172.113.182
+  type: ss
+  udp: true
+- name: 17|🇬🇧 GB 40 → tg@nicevpn123
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.176.117.240
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: 17|🇬🇧 GB 41 → tg@nicevpn123
+  password: d0774966-fb63-4aca-9478-16c3f32be220
+  port: 443
+  server: jp.mjt000.com
+  skip-cert-verify: true
+  sni: jp.mjt000.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 42 → tg@nicevpn123
+  password: mTypilmjidrr6dQYaOGHf7
+  port: 46130
+  server: 13.87.75.155
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 43 → tg@nicevpn123
+  password: IJIljqaePSVQhZeA7ccN1F
+  port: 59083
+  server: 51.143.142.183
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 17|🇬🇧 GB 44 → tg@nicevpn123
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 145.239.6.202
+  type: ss
+  udp: true
+- name: 17|🇬🇧 GB 45 → tg@nicevpn123
+  password: wkmY1R4EcP
+  port: 443
+  server: 45.76.130.173
+  skip-cert-verify: true
+  sni: z-v2-003289.kailib.com
+  type: trojan
+  udp: true
+- name: 17|🇬🇧 GB 46 → tg@nicevpn123
+  password: a1956156-b1d6-468e-b22f-59765172b07d
+  port: 443
+  server: hinet.mjt001.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 47 → tg@nicevpn123
+  password: 8MDtlO0vf7UIhqFK8aZkhJ
+  port: 60502
+  server: 52.151.73.254
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 17|🇬🇧 GB 48 → tg@nicevpn123
+  network: ws
+  port: 8880
+  server: 217.160.45.31
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 49 → tg@nicevpn123
+  password: mps3FwmDjLrWaOVg
+  port: 443
+  server: 51.112.72.37
+  type: ss
+  udp: true
+- name: 17|🇬🇧 GB 5 → tg@nicevpn123
+  password: d0774966-fb63-4aca-9478-16c3f32be220
+  port: 443
+  server: kr.mjt000.com
+  skip-cert-verify: true
+  sni: kr.mjt000.com
+  type: trojan
+  udp: true
+- name: 17|🇬🇧 GB 50 → tg@nicevpn123
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.10.18.151
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 17|🇬🇧 GB 51 → tg@nicevpn123
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 77.72.5.150
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 52 → tg@nicevpn123
+  password: J6L1Hf4oKWPxbvMLc8i8ny
+  port: 31103
+  server: 52.151.72.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 17|🇬🇧 GB 53 → tg@nicevpn123
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 145.239.6.202
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 54 → tg@nicevpn123
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 141.11.189.55
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 6 → tg@nicevpn123
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 185.172.113.182
+  type: ss
+  udp: true
+- name: 17|🇬🇧 GB 7 → tg@nicevpn123
+  password: d0774966-fb63-4aca-9478-16c3f32be220
+  port: 443
+  server: sg.mjt000.com
+  skip-cert-verify: true
+  sni: sg.mjt000.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 8 → tg@nicevpn123
+  password: IJl7gbeZxeXZzZGcKFMaHA
+  port: 33910
+  server: 51.103.183.241
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 17|🇬🇧 GB 9 → tg@nicevpn123
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 141.11.189.205
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 26|🇬🇧GB-212.102.53.194-0089
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.194
+  type: ss
+- cipher: aes-128-gcm
+  name: 26|🇬🇧GB-212.102.53.81-0255
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.81
+  type: ss
+- cipher: aes-128-gcm
+  name: 26|🇬🇧GB-212.102.53.195-0246
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.195
+  type: ss
+- cipher: aes-128-gcm
+  name: 26|🇬🇧GB-212.102.53.78-0242
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.78
+  type: ss
+- cipher: aes-128-gcm
+  name: 26|🇬🇧GB-212.102.53.197-0252
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.197
+  type: ss
+- cipher: aes-128-gcm
+  name: 26|🇬🇧GB-212.102.53.198-0249
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.198
+  type: ss
+- cipher: aes-128-gcm
+  name: 26|🇬🇧GB-212.102.53.193-0253
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.193
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 26|🇬🇧GB-85.210.120.237-0240
+  password: Bog0ELmMM9DSxDdQ
+  port: 443
+  server: 85.210.120.237
+  type: ss
+- cipher: aes-128-gcm
+  name: 26|🇬🇧GB-212.102.53.80-0251
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.80
+  type: ss
+- cipher: aes-128-gcm
+  name: 26|🇬🇧GB-212.102.53.197-0264
+  password: shadowsocks
+  port: 443
+  server: uk-dc1.yangon.club
+  type: ss
+- cipher: aes-128-gcm
+  name: 26|🇬🇧GB-212.102.53.79-0243
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.79
+  type: ss
+- cipher: aes-128-gcm
+  name: 26|🇬🇧GB-212.102.53.196-0250
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.196
+  type: ss
+- cipher: aes-128-gcm
+  name: 26,27|🇬🇧GB-141.98.101.178-0171 | 9.7...
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.178
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.146-0061 | 69.68...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.146
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.217-0062 | 58.22...
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.217
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.176-0082 | 57.35...
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.176
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.214-0093 | 55.25...
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.214
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.35-0085 | 54.367...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.35
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.190-0070 | 53.64...
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.190
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.89-0083 | 53.315...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.89
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.205-0092 | 53.05...
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.205
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27,37|GB_speednode_0010
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.131
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.62-0057 | 52.817...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.62
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.134-0096 | 52.78...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.134
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.148-0059 | 52.30...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.148
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.135-0073 | 52.06...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.135
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.208-4409 | 51.98...
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.208
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.99-0084 | 51.858...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.99
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.155-0090 | 51.48...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.155
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.191-0066 | 51.38...
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.191
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.210-0063 | 51.35...
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.210
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.202-0060 | 51.02...
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.202
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.189-0077 | 50.76...
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.189
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.194-0087 | 50.55...
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.194
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.199-0133 | 50.52...
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.199
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.101-4403 | 50.51...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.101
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.82-0067 | 49.956...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.82
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.218-4827 | 49.90...
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.218
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.61-0064 | 49.805...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.61
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.149-0076 | 49.67...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.149
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.187-0074 | 48.81...
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.187
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.89-0080 | 48.787...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.89
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.69-0072 | 48.726...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.69
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 27,34|🇬GB国 3.4MB/s
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.66
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.103-1633 | 48.22...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.103
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.186-0069 | 45.41...
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.186
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-138.68.153.223-0113 | 29....
+  password: idMvoewrSyLLvEvP03k9zR
+  port: 46576
+  server: 138.68.153.223
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-51.132.230.57-0109 | 18.7...
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: admin.c1.webramz.co
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 27,34|🇬🇧GB英国2 9.4MB/s
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: series-a2.samanehha.co
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 27,34|🇧GB英国3 10.1MB/s
+  password: 1kVr0KATIJI7mwOF
+  port: 443
+  server: admin.c1.havij.co
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- cipher: aes-128-gcm
+  name: 27|🇬🇧GB-141.98.101.182-0170 | 12....
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.182
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.122-0129 | 11.51...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.122
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.124-0134 | 8.948...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27|🇬🇧GB-82.38.31.184-0192 | 0.213...
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.184
+  type: ss
+- cipher: aes-256-gcm
+  name: 27|🇬🇧GB-172.99.190.35-0249 | 0.0M...
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 172.99.190.35
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 33|0|🇧英国家宽 01 | 1x UK
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 33|1|🇧 英国住宅IP 01 | 1x UK
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 37|GB_speednode_0011
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.141
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 37|GB_speednode_0014
+  network: ws
+  port: 16617
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
+  ws-opts:
+    headers:
+      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
+    path: /
