@@ -7,11 +7,21 @@ proxies:
   server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
+- alterId: 2
+  cipher: auto
+  name: 15|台湾_051704070
+  network: tcp
+  port: '30811'
+  server: v11.zgtfqs.click
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - h2
   grpc-opts:
     grpc-service-name: db
-  name: 15|Taiwan_Taichung_trojan_1124
+  name: 16,28|🇹🇼TW_8|2.1MB/s
   network: grpc
   password: 0a9f1f5a397bd427
   port: 443
@@ -21,7 +31,7 @@ proxies:
   type: trojan
 - grpc-opts:
     grpc-service-name: db
-  name: 15|Taiwan_Taichung_trojan_1125
+  name: 16|Taiwan_Taichung_trojan_1125
   network: grpc
   password: 3f5bc61547b1f0d9
   port: 443
@@ -30,7 +40,7 @@ proxies:
   sni: TG.freecodes
   tls: true
   type: trojan
-- name: 15|Taiwan_Taipei_trojan_1126
+- name: 16|Taiwan_Taipei_trojan_1126
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 16443
@@ -45,7 +55,7 @@ proxies:
   - h2
   grpc-opts:
     grpc-service-name: db
-  name: 15|Taiwan_Taichung_trojan_1127
+  name: 16,28|🇹🇼TW_9|712KB/s
   network: grpc
   password: 3f5bc61547b1f0d9
   port: 443
@@ -57,7 +67,7 @@ proxies:
   - h2
   grpc-opts:
     grpc-service-name: db
-  name: 15|Taiwan_Taichung_trojan_1128
+  name: 16,28|🇹🇼TW_10|1.6MB/s
   network: grpc
   password: 3f5bc61547b1f0d9
   port: 443
@@ -69,7 +79,7 @@ proxies:
   - h2
   grpc-opts:
     grpc-service-name: db
-  name: 15|Taiwan_Taichung_trojan_1129
+  name: 16,28|🇹🇼TW_7|4.6MB/s
   network: grpc
   password: 0a9f1f5a397bd427
   port: 443
@@ -83,7 +93,7 @@ proxies:
     headers: {}
     path:
     - /ABCDE
-  name: 15|Taiwan_None_vmess_1134
+  name: 16|Taiwan_None_vmess_1134
   network: http
   port: 55386
   server: 103.127.243.60
@@ -96,21 +106,100 @@ proxies:
     method: GET
     path:
     - /ABCDE
-  name: 15|Taiwan_None_vmess_1135
+  name: 16|Taiwan_None_vmess_1135
   network: http
   port: 58051
   server: 103.127.243.55
   tls: false
   type: vmess
   uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
+- name: 28|🇹🇼TW_1|7.0MB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 25608
+  server: 1.161.52.121
+  skip-cert-verify: true
+  sni: mx-cn9t.yuetong.online
+  tls: false
+  type: hysteria2
+- name: 28|🇹🇼TW_2|5.1MB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 35518
+  server: 1.161.52.121
+  skip-cert-verify: true
+  sni: mx-cn9t.yuetong.online
+  tls: false
+  type: hysteria2
+- name: 28|🇹🇼TW_3|4.0MB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 39727
+  server: 1.161.50.107
+  skip-cert-verify: true
+  sni: edge-di.yuetong.online
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 28|🇹🇼TW_4|2.6MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: B6r6wvfBmxpAz4lqw8Q6_riWhbCCtAuXmoNgS-sOelU
+    short-id: a13b96ad
+  server: 1.161.50.107
+  servername: www.canon.com
+  tls: false
+  type: vless
+  uuid: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+- name: 28|🇹🇼TW_5|5.1MB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 37550
+  server: 1.161.50.107
+  skip-cert-verify: true
+  sni: edge-di.yuetong.online
+  tls: false
+  type: hysteria2
+- name: 28|🇹🇼TW_6|7.0MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 160.187.100.109
+  skip-cert-verify: true
+  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 28|🇹🇼TW_11|3.7MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: WvFsnr9f6DsQm0j5v1__ZyHiAAegCO5UCp6UM_rIDjM
+    short-id: b74c6649
+  server: 1.161.52.121
+  servername: www.sony.com
+  tls: false
+  type: vless
+  uuid: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 28|🇹🇼TW_12|5.1MB/s
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
+    short-id: 04d59340
+  server: tw06.352343.cc
+  servername: www.python.org
+  tls: false
+  type: vless
+  uuid: 68077ffe-3368-4755-98d0-9367aa1ad6f2
 - cipher: aes-256-cfb
-  name: 26,27|SC-154.223.20.79-0184 | 0.053M...
+  name: 29,30|SC-154.223.20.79-0184 | 0.053M...
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.223.20.79
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 26|🇹🇼TW-223.165.4.173-5053
+  name: 29|🇹🇼TW-223.165.4.173-5053
   password: f8f7aCzcPKbsF8p3
   port: 990
   server: 223.165.4.173
@@ -118,7 +207,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 26|🇹🇼TW-103.61.139.137-5077
+  name: 29|🇹🇼TW-103.61.139.137-5077
   network: ws
   port: 20521
   server: 103.61.139.137
@@ -131,42 +220,42 @@ proxies:
       host: ''
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 33|0| 01 | 1x TW
+  name: 36|0| 01 | 1x TW
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 33|0|🇼台湾 02 | 1x TW
+  name: 36|0|🇼台湾 02 | 1x TW
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 33|0|🇼台湾 03 | 1x TW
+  name: 36|0|🇼台湾 03 | 1x TW
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 33|1|🇼 台湾 01 | 1x TW
+  name: 36|1|🇼 台湾 01 | 1x TW
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 33|1|🇹🇼 台湾 02 | 1x TW
+  name: 36|1|🇹🇼 台湾 02 | 1x TW
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 33|1|🇼 台湾 03 | 1x TW
+  name: 36|1|🇼 台湾 03 | 1x TW
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
   port: 36245
   server: free.2weradf.xyz
@@ -174,7 +263,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 33|2,13|台湾|@ripaojiedian
+  name: 36|2,13|台湾|@ripaojiedian
   network: ws
   port: 46005
   server: fadawtawd.zhangwei.li
@@ -188,7 +277,7 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 33|12|🇼 台湾|@ripaojiedian
+  name: 36|12|🇼 台湾|@ripaojiedian
   network: ws
   port: 46005
   server: fadawtawd.zhangwei.li
@@ -201,7 +290,7 @@ proxies:
     headers:
       Host: fadawtawd.zhangwei.li
     path: /zh-cn
-- name: '37,38|TW_speednode_0034 #1'
+- name: '37,41,42|TW_speednode_0034 #1'
   network: ws
   port: 17820
   server: s5.db-link.in
