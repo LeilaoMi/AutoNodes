@@ -1,19 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|China_None_vmess_1123
-  network: ws
-  port: 31723
-  server: v3.cdn.wp85x4frjf6x.jjxdns.net
+  name: 16|China_None_vmess_1114
+  network: tcp
+  port: 11936
+  server: select-id.ddnskunlun.com
+  servername: select-id.ddnskunlun.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 29e5f410-68ce-33e0-b0ed-be1f73ab2088
-  ws-opts:
-    headers:
-      Host: v3.cdn.wp85x4frjf6x.jjxdns.net
-    path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+  udp: true
+  uuid: 4d6a19fd-ba4f-36c5-89ad-97224cca5484
 - alterId: 0
   cipher: auto
-  name: 16|China_None_vmess_1155
+  name: 16|China_None_vmess_1154
   port: 51556
   server: 103.181.164.145
   type: vmess

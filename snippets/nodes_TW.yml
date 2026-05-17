@@ -9,7 +9,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: 15|台湾_051710001
+  name: 15|台湾_051715001
   network: tcp
   port: '30811'
   server: v11.zgtfqs.click
@@ -19,15 +19,27 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 15,16|Taiwan_Kaohsiung City_vmess_11...
+  name: 15|台湾_051715070
   network: ''
-  port: 30811
+  port: '30811'
   server: v11.zgtfqs.click
   servername: ''
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 16|Taiwan_Taipei_trojan_1125
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: 16,28|🇹🇼TW_3|4.0MB/s
+  network: grpc
+  password: 0a9f1f5a397bd427
+  port: 443
+  server: 125.227.86.47
+  skip-cert-verify: true
+  sni: TG.freecodes
+  type: trojan
+- name: 16|Taiwan_Taipei_trojan_1123
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 16443
@@ -38,16 +50,9 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: 16|Taiwan_Taipei_trojan_1126
-  password: 60207953-ef79-4f8f-8062-63c281f34c6b
-  port: 8080
-  server: tw4.453521.xyz
-  sni: tw4.453521.xyz
-  tls: true
-  type: trojan
 - grpc-opts:
     grpc-service-name: db
-  name: 16,28|🇹🇼TW_8|3.7MB/s
+  name: 16|Taiwan_Taichung_trojan_1124
   network: grpc
   password: 3f5bc61547b1f0d9
   port: 443
@@ -56,18 +61,31 @@ proxies:
   sni: TG.freecodes
   tls: true
   type: trojan
-- name: 16|Taiwan_Taipei_trojan_1128
-  password: 68077ffe-3368-4755-98d0-9367aa1ad6f2
-  port: 8080
-  server: tw4.453521.xyz
-  sni: tw4.453521.xyz
-  tls: true
-  type: trojan
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 16|Taiwan_None_vmess_1125
+  network: http
+  port: 58051
+  server: 103.127.243.55
+  tls: false
+  type: vmess
+  uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
+- cipher: chacha20-ietf-poly1305
+  name: 16,30|🇨🇳TW-111.248.87.48-0159 | 7.05...
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg007117fb8.cybervena.com
+  type: ss
+  udp: true
 - alpn:
   - h2
   grpc-opts:
     grpc-service-name: db
-  name: 16|Taiwan_Taichung_trojan_1129
+  name: 16|Taiwan_Taichung_trojan_11118
   network: grpc
   password: 3f5bc61547b1f0d9
   port: 443
@@ -75,58 +93,8 @@ proxies:
   skip-cert-verify: true
   sni: TG.freecodes
   type: trojan
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: db
-  name: 16|Taiwan_Taichung_trojan_1130
-  network: grpc
-  password: 3f5bc61547b1f0d9
-  port: 443
-  server: 125.227.86.48
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: db
-  name: 16|Taiwan_Taichung_trojan_1131
-  network: grpc
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.45
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 16|Taiwan_None_vmess_1133
-  network: http
-  port: 58051
-  server: 103.127.243.55
-  tls: false
-  type: vmess
-  uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 16|Taiwan_None_vmess_1147
-  network: http
-  port: 54291
-  server: 103.127.243.66
-  type: vmess
-  uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
 - cipher: aes-256-cfb
-  name: 29,30|SC-154.223.20.79-0184 | 0.053M...
+  name: 29,30|SC-154.223.20.79-0194 | 0.033M...
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.223.20.79

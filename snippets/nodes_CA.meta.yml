@@ -32,7 +32,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 15|加拿大_051710005
+  name: 15|加拿大_051715005
   network: tcp
   port: '18000'
   server: 134.195.196.211
@@ -42,7 +42,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 15|加拿大_051710138
+  name: 15|加拿大_051715136
   network: ''
   port: '18000'
   server: 23.162.200.198
@@ -1037,7 +1037,7 @@ proxies:
       host: teams.microsoft.com
     path: /
 - cipher: aes-256-cfb
-  name: 29,30|🇨🇦CA-79.127.233.170-0051 | 74....
+  name: 29,30|🇨🇦CA-79.127.233.170-0055 | 148...
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 79.127.233.170
@@ -1061,20 +1061,20 @@ proxies:
   server: 85.208.108.59
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 30|🇨🇦CA-79.127.200.169-0054 | 147...
+  name: 30|🇨🇦CA-79.127.200.169-0053 | 114...
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 79.127.200.169
   type: ss
 - cipher: rc4-md5
-  name: 30|🇨🇦CA-137.184.174.93-0058 | 120...
+  name: 30|🇨🇦CA-137.184.174.93-0054 | 58....
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 137.184.174.93
   type: ss
 - alterId: 0
   cipher: auto
-  name: 30|🇨🇦CA-134.195.198.147-6720 | 21...
+  name: 30|🇨🇦CA-134.195.198.147-6694 | 39...
   network: ws
   port: 443
   server: 134.195.198.147
@@ -1088,7 +1088,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 30|🇨🇦CA-23.162.200.227-0237 | 0.0...
+  name: 30|🇨🇦CA-23.162.200.227-6692 | 17....
   network: ws
   port: 443
   server: 23.162.200.227
@@ -1098,6 +1098,12 @@ proxies:
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     path: /
+- cipher: aes-256-gcm
+  name: 30|🇨🇦CA-85.208.108.20-5266 | 0.0M...
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 85.208.108.20
+  type: ss
 - cipher: aes-256-gcm
   name: 30|🇨🇦CA-198.57.27.225-0250 | 0.0M...
   password: XKFKl2rULjIp74

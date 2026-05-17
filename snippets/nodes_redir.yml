@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: aes-256-gcm
-  name: 1,38|CA
+  name: 1,38|🇨CA加大
   password: 8JCsPssfgS8tiRwiMlhARg==
   port: 12000
   server: 144.217.164.29
@@ -42,7 +42,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '9,10,11,12,13|美国(yudou789.top 玉豆免费节点) #12'
+  name: '9,11,12,13|美国(yudou789.top 玉豆免费节点) #45'
   network: tcp
   port: '30809'
   server: v9.hdacd.com
@@ -50,20 +50,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: none
-  name: 15|CF中转_0517107712
-  network: ws
-  port: '8443'
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
   name: 25|🇨🇳 _TW_台湾->🇺🇸_US_美国
