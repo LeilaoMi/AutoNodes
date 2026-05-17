@@ -13,14 +13,14 @@
 
 
 # 全网更新节点
-# https://raw.githubusercontent.com/freefq/free/master/v2
-# https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml
-# https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
-# https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
-# https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml
-# https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml
-# https://raw.githubusercontent.com/lflflf999/0516/main/BX-JD # 关闭，循环引用
-# https://raw.githubusercontent.com/Mr8AHAL/v2ray/main/SERVER.txt
+https://raw.githubusercontent.com/freefq/free/master/v2
+https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml
+https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
+https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
+https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml
+https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml
+https://raw.githubusercontent.com/lflflf999/0516/main/BX-JD # 关闭，循环引用
+https://raw.githubusercontent.com/Mr8AHAL/v2ray/main/SERVER.txt
 https://raw.githubusercontent.com/PuddinCat/BestClash/refs/heads/main/proxies.yaml
 https://cdn.jsdelivr.net/gh/vxiaov/free_proxies@main/clash/clash.provider.yaml
 https://raw.githubusercontent.com/Misaka-blog/chromego_merge/main/sub/merged_proxies_new.yaml
@@ -65,13 +65,17 @@ https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/1/config.yam
 https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/13/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/15/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/2/config.yaml
-# https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/3/config.yaml
+https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/3/config.yaml
 
 # Same, TG Channels
 https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2
 https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2
 https://raw.githubusercontent.com/qjlxg/hy2/main/splitted/hy2
-
+https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed
+https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/vmess
+https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/vless
+https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/trojan
+https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/ss
 
 # 不更新
 # https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_META_IRAN-Direct.yml
@@ -95,7 +99,7 @@ https://raw.githubusercontent.com/qjlxg/hy2/main/splitted/hy2
 # https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/clash
 
 # 这里包含了全网的所有节点
-# https://raw.githubusercontent.com/mheidari98/.proxy/main/all
+https://raw.githubusercontent.com/mheidari98/.proxy/main/all
 
 +date https://nodefree.org/dy/%Y/%m/%Y%m%d.txt
 +date https://nodefree.org/dy/%Y/%m/%Y%m%d.yaml
@@ -103,25 +107,27 @@ https://raw.githubusercontent.com/qjlxg/hy2/main/splitted/hy2
 +date https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.yaml
 +date https://freenode.openrunner.net/uploads/%Y/%m/%Y%m%d.yaml
 +date https://freenode.openrunner.net/uploads/%Y/%m/%Y%m%d.txt
++date https://free.datiya.com/uploads/%Y/%m/%Y%m%d.txt
++date https://free.datiya.com/uploads/%Y/%m/%Y%m%d.yaml
 +date https://raw.githubusercontent.com/danmaifu/mianfeijiedian/main/feed/%Y/%m/%Y%m%d.yaml
 +date https://raw.githubusercontent.com/danmaifu/mianfeijiedian/main/feed/%Y/%m/%Y%m%d.txt
 +date https://raw.githubusercontent.com/xibanyahu/phppachong-freenode/main/feed/%Y/%m/%Y%m%d.yaml
 +date https://raw.githubusercontent.com/xibanyahu/phppachong-freenode/main/feed/%Y/%m/%Y%m%d.txt
 +date https://node.oneclash.cc/%Y/%m/%Y%m%d.txt
 +date https://node.oneclash.cc/%Y/%m/%Y%m%d.yaml
-# !https://sub.nicevpn.top/long
-# !https://sub.nicevpn.top/Clash.yaml
-# https://sub.sharecentre.online/sub
-# https://prop.cf/?name=paimon&client=base64
-# https://prop.cf/?name=paimon&client=clash
-# !https://clash.221207.xyz/pubclashyaml
-# !https://free.jingfu.cf/clash/proxies
+https://sub.nicevpn.top/long
+https://sub.nicevpn.top/Clash.yaml
+https://sub.sharecentre.online/sub
+https://prop.cf/?name=paimon&client=base64
+https://prop.cf/?name=paimon&client=clash
+https://clash.221207.xyz/pubclashyaml
+https://free.jingfu.cf/clash/proxies
 
 # Copied from https://github.com/ClodQiu/Clash.Base64/blob/Grey/Node.Address
-# https://vpnyyds.link/free
-# !https://jc.openxai.link/
-!https://gitlab.com/colloq168/nodefiltrate/-/raw/main/filtrate?ref_type=heads
+https://vpnyyds.link/free
+https://jc.openxai.link/
+https://gitlab.com/colloq168/nodefiltrate/-/raw/main/filtrate?ref_type=heads
 
 
 # Airports
-# *https://raw.githubusercontent.com/RenaLio/Mux2sub/main/urllist # 挂了，谁叫你不控制抓取时长
+https://raw.githubusercontent.com/RenaLio/Mux2sub/main/urllist # 挂了，谁叫你不控制抓取时长
