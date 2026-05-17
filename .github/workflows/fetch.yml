@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # 表达式生成 https://crontab.guru/
-    - cron: '0 */6 * * *'
+    - cron: '0 */12 * * *'
   push:
     paths:
       - 'sources.list'
@@ -31,6 +31,8 @@ jobs:
       run: pip install -r requirements.txt
     - name: 执行任务
       run: python ./fetch.py
+      name: 过滤有效节点       
+      run: python ./filter.py
       
     - name: 提交更改
       run: |                 
