@@ -98,16 +98,16 @@ https://raw.githubusercontent.com/qjlxg/hy2/main/splitted/hy2
 # 这里包含了全网的所有节点
 # https://raw.githubusercontent.com/mheidari98/.proxy/main/all
 
-# +date https://nodefree.org/dy/%Y/%m/%Y%m%d.txt
-# +date https://nodefree.org/dy/%Y/%m/%Y%m%d.yaml
-# !+date https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.txt
-# !+date https://github.com/danmaifu/mianfeijiedian/tree/main/feed/%Y/%m/%Y%m%d.txt
-# !+date https://github.com/danmaifu/mianfeijiedian/tree/main/feed/%Y/%m/%Y%m%d.yaml
-# !+date https://github.com/xibanyahu/phppachong-freenode/tree/main/feed/%Y/%m/%Y%m%d.txt
-# !+date https://github.com/xibanyahu/phppachong-freenode/tree/main/feed/%Y/%m/%Y%m%d.yaml
-# !+date https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.yaml
-# !+date https://node.oneclash.cc/%Y/%m/%Y%m%d.txt
-# !+date https://node.oneclash.cc/%Y/%m/%Y%m%d.yaml
++date https://nodefree.org/dy/%Y/%m/%Y%m%d.txt
++date https://nodefree.org/dy/%Y/%m/%Y%m%d.yaml
++date https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.txt
++date https://github.com/danmaifu/mianfeijiedian/tree/main/feed/%Y/%m/%Y%m%d.txt
++date https://github.com/danmaifu/mianfeijiedian/tree/main/feed/%Y/%m/%Y%m%d.yaml
++date https://github.com/xibanyahu/phppachong-freenode/tree/main/feed/%Y/%m/%Y%m%d.txt
++date https://github.com/xibanyahu/phppachong-freenode/tree/main/feed/%Y/%m/%Y%m%d.yaml
++date https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.yaml
++date https://node.oneclash.cc/%Y/%m/%Y%m%d.txt
++date https://node.oneclash.cc/%Y/%m/%Y%m%d.yaml
 # !https://sub.nicevpn.top/long
 # !https://sub.nicevpn.top/Clash.yaml
 # https://sub.sharecentre.online/sub
