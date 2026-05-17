@@ -1,21 +1,5 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12|🇩🇪 德国
-  network: ws
-  port: 46092
-  server: mmde92.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmde92.micloud.buzz
-    path: /zh-cn
-- name: 26|Germany_None_trojan_1153
+- name: 27|Germany_None_trojan_1153
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -30,7 +14,7 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 28,48|🇺RU
+  name: 29,49|🇺RU
   password: 36ZCHeabUSfKjfQEvJ4HDV
   port: 54170
   server: 185.242.86.156
@@ -38,14 +22,14 @@ proxies:
   tls: true
   type: ss
   udp: true
-- name: 28|🇩🇪 DE 10 → tg@nicevpn123
+- name: 29|🇩🇪 DE 10 → tg@nicevpn123
   password: 8ea03cb9-e073-4904-8081-f43cb43fddac
   port: 443
   server: de-full.privateip.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 28|🇩🇪 DE 11 → tg@nicevpn123
+- name: 29|🇩🇪 DE 11 → tg@nicevpn123
   password: your_password
   port: 443
   server: 54.93.172.88
@@ -53,7 +37,7 @@ proxies:
   sni: aws-ge-frankfurt-1.f1rocketnode.com
   type: trojan
   udp: true
-- name: 28|🇩🇪 DE 12 → tg@nicevpn123
+- name: 29|🇩🇪 DE 12 → tg@nicevpn123
   password: telegram-id-privatevpns
   port: 22222
   server: 3.124.56.58
@@ -63,7 +47,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇩🇪 DE 13 → tg@nicevpn123
+  name: 29|🇩🇪 DE 13 → tg@nicevpn123
   port: 55985
   server: 5.75.202.76
   skip-cert-verify: true
@@ -72,14 +56,14 @@ proxies:
   udp: true
   uuid: 7eaf60fc-c6a7-4467-9c00-bd0efe4f1248
 - cipher: aes-256-gcm
-  name: 28|🇩🇪 DE 14 → tg@nicevpn123
+  name: 29|🇩🇪 DE 14 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 217.182.198.219
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 28|🇩🇪 DE 15 → tg@nicevpn123
+  name: 29|🇩🇪 DE 15 → tg@nicevpn123
   password: Uxm4ADwftKdXq5qRA4ZfHS
   port: 1194
   server: 49.13.10.50
@@ -87,7 +71,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇩🇪 DE 16 → tg@nicevpn123
+  name: 29|🇩🇪 DE 16 → tg@nicevpn123
   network: ws
   port: 80
   server: 92.223.124.36
@@ -98,7 +82,7 @@ proxies:
   uuid: 0688b7c7-72e9-442e-95a0-d3b950028c39
   ws-opts:
     path: /@forwardv2ray
-- name: 28|🇩🇪 DE 17 → tg@nicevpn123
+- name: 29|🇩🇪 DE 17 → tg@nicevpn123
   password: ea630804-4d5d-4180-a464-a360e3793dc2
   port: 443
   server: de-full.privateip.net
@@ -106,7 +90,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 28|🇩🇪 DE 18 → tg@nicevpn123
+  name: 29|🇩🇪 DE 18 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
   port: 3306
   server: 217.182.198.219
@@ -114,7 +98,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇩🇪 DE 19 → tg@nicevpn123
+  name: 29|🇩🇪 DE 19 → tg@nicevpn123
   port: 25786
   server: 5.75.202.76
   skip-cert-verify: true
@@ -124,7 +108,7 @@ proxies:
   uuid: f95d3ed6-4f8a-4dda-a633-da8664345801
 - alterId: 0
   cipher: auto
-  name: 28|🇩🇪 DE 2 → tg@nicevpn123
+  name: 29|🇩🇪 DE 2 → tg@nicevpn123
   port: 8442
   server: 141.94.237.81
   skip-cert-verify: true
@@ -133,7 +117,7 @@ proxies:
   udp: true
   uuid: 60df4ec6-7506-407e-998e-b1539fc0630f
 - cipher: chacha20-ietf-poly1305
-  name: 28|🇩🇪 DE 20 → tg@nicevpn123
+  name: 29|🇩🇪 DE 20 → tg@nicevpn123
   password: XwWVRmO2kKu6qK1Xlih3Lfe6Lh3RRa9r
   port: 8388
   server: 213.183.44.17
@@ -141,7 +125,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇩🇪 DE 21 → tg@nicevpn123
+  name: 29|🇩🇪 DE 21 → tg@nicevpn123
   port: 8443
   server: 141.94.237.81
   skip-cert-verify: true
@@ -150,13 +134,13 @@ proxies:
   udp: true
   uuid: 4b994ea4-6a99-442d-9db9-06df89cca050
 - cipher: aes-256-gcm
-  name: 28|🇩🇪 DE 22 → tg@nicevpn123
+  name: 29|🇩🇪 DE 22 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
   port: 5000
   server: 217.182.198.219
   type: ss
   udp: true
-- name: 28|🇩🇪 DE 23 → tg@nicevpn123
+- name: 29|🇩🇪 DE 23 → tg@nicevpn123
   password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
   port: 443
   server: 194.195.123.173
@@ -165,7 +149,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇩🇪 DE 24 → tg@nicevpn123
+  name: 29|🇩🇪 DE 24 → tg@nicevpn123
   port: 8880
   server: 88.198.93.175
   skip-cert-verify: true
@@ -175,7 +159,7 @@ proxies:
   uuid: 58531009-b664-445b-b896-7bb9026b744d
 - alterId: 0
   cipher: auto
-  name: 28|🇩🇪 DE 25 → tg@nicevpn123
+  name: 29|🇩🇪 DE 25 → tg@nicevpn123
   network: ws
   port: 443
   server: de-full.privateip.net
@@ -190,7 +174,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 28|🇩🇪 DE 26 → tg@nicevpn123
+  name: 29|🇩🇪 DE 26 → tg@nicevpn123
   network: ws
   port: 443
   server: fr-full.privateip.net
@@ -203,7 +187,7 @@ proxies:
     headers:
       Host: fr-full.privateip.net
     path: /RACEVPN
-- name: 28|🇩🇪 DE 27 → tg@nicevpn123
+- name: 29|🇩🇪 DE 27 → tg@nicevpn123
   password: 7d2c1050-fc3a-11ee-9230-1239d0255272
   port: 443
   server: 103.252.90.93
@@ -212,7 +196,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇩🇪 DE 28 → tg@nicevpn123
+  name: 29|🇩🇪 DE 28 → tg@nicevpn123
   port: 46377
   server: 5.75.202.76
   skip-cert-verify: true
@@ -220,14 +204,14 @@ proxies:
   type: vmess
   udp: true
   uuid: 0db30fb2-f972-4096-be43-9c01c2796150
-- name: 28|🇩🇪 DE 29 → tg@nicevpn123
+- name: 29|🇩🇪 DE 29 → tg@nicevpn123
   password: 8ea03cb9-e073-4904-8081-f43cb43fddac
   port: 443
   server: 51.75.77.237
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 28|🇩🇪 DE 3 → tg@nicevpn123
+- name: 29|🇩🇪 DE 3 → tg@nicevpn123
   password: 0fe4bbdb-2854-4cc5-986c-f62dbb900bc5
   port: 443
   server: 141.94.115.231
@@ -235,7 +219,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 28|🇩🇪 DE 30 → tg@nicevpn123
+  name: 29|🇩🇪 DE 30 → tg@nicevpn123
   password: faBAoD54k87UJG7
   port: 2376
   server: 217.182.198.219
@@ -243,7 +227,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇩🇪 DE 31 → tg@nicevpn123
+  name: 29|🇩🇪 DE 31 → tg@nicevpn123
   port: 18100
   server: 194.195.245.204
   skip-cert-verify: true
@@ -252,13 +236,13 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
-  name: 28|🇩🇪 DE 32 → tg@nicevpn123
+  name: 29|🇩🇪 DE 32 → tg@nicevpn123
   password: Yc2CtrIz8L
   port: 30129
   server: 5.161.81.6
   type: ss
   udp: true
-- name: 28|🇩🇪 DE 33 → tg@nicevpn123
+- name: 29|🇩🇪 DE 33 → tg@nicevpn123
   password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff
   port: 443
   server: 89.163.220.99
@@ -268,7 +252,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇩🇪 DE 34 → tg@nicevpn123
+  name: 29|🇩🇪 DE 34 → tg@nicevpn123
   port: 31418
   server: 5.75.202.76
   skip-cert-verify: true
@@ -276,14 +260,14 @@ proxies:
   type: vmess
   udp: true
   uuid: 9afc7852-6341-4903-971c-3c6b92a913bb
-- name: 28|🇩🇪 DE 35 → tg@nicevpn123
+- name: 29|🇩🇪 DE 35 → tg@nicevpn123
   password: 0fe4bbdb-2854-4cc5-986c-f62dbb900bc5
   port: 443
   server: fr-full.privateip.net
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 28|🇩🇪 DE 36 → tg@nicevpn123
+- name: 29|🇩🇪 DE 36 → tg@nicevpn123
   password: telegram-id-directvpn
   port: 22222
   server: 51.21.28.221
@@ -293,7 +277,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇩🇪 DE 37 → tg@nicevpn123
+  name: 29|🇩🇪 DE 37 → tg@nicevpn123
   network: ws
   port: 443
   server: fr-full.privateip.net
@@ -306,7 +290,7 @@ proxies:
     headers:
       Host: fr-full.privateip.net
     path: /RACEVPN
-- name: 28|🇩🇪 DE 38 → tg@nicevpn123
+- name: 29|🇩🇪 DE 38 → tg@nicevpn123
   password: telegram-id-directvpn
   port: 22222
   server: 3.122.135.247
@@ -315,13 +299,13 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 28|🇩🇪 DE 39 → tg@nicevpn123
+  name: 29|🇩🇪 DE 39 → tg@nicevpn123
   password: g5MeD6Ft3CWlJId
   port: 5003
   server: 217.182.198.219
   type: ss
   udp: true
-- name: 28|🇩🇪 DE 4 → tg@nicevpn123
+- name: 29|🇩🇪 DE 4 → tg@nicevpn123
   password: telegram-id-privatevpns
   port: 22222
   server: 18.153.252.91
@@ -330,7 +314,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 28|🇩🇪 DE 40 → tg@nicevpn123
+  name: 29|🇩🇪 DE 40 → tg@nicevpn123
   password: 4pWVbIVIuw4LK9wvMgcHW5
   port: 27981
   server: 193.228.128.143
@@ -338,7 +322,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇩🇪 DE 41 → tg@nicevpn123
+  name: 29|🇩🇪 DE 41 → tg@nicevpn123
   network: ws
   port: 80
   server: si4co.09vpn.com
@@ -353,7 +337,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 28|🇩🇪 DE 42 → tg@nicevpn123
+  name: 29|🇩🇪 DE 42 → tg@nicevpn123
   network: ws
   port: 443
   server: 185.135.9.208
@@ -368,7 +352,7 @@ proxies:
     path: /nina.bond/linkvws
 - alterId: 0
   cipher: auto
-  name: 28|🇩🇪 DE 43 → tg@nicevpn123
+  name: 29|🇩🇪 DE 43 → tg@nicevpn123
   network: ws
   port: 443
   server: de-full.privateip.net
@@ -381,7 +365,7 @@ proxies:
     headers:
       Host: de-full.privateip.net
     path: /RACEVPN
-- name: 28|🇩🇪 DE 44 → tg@nicevpn123
+- name: 29|🇩🇪 DE 44 → tg@nicevpn123
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   port: 46527
   server: foreign04.lovehjq.xyz
@@ -389,7 +373,7 @@ proxies:
   sni: lovehjq.xyz
   type: trojan
   udp: true
-- name: 28|🇩🇪 DE 45 → tg@nicevpn123
+- name: 29|🇩🇪 DE 45 → tg@nicevpn123
   password: telegram-id-directvpn
   port: 22222
   server: 18.197.182.188
@@ -399,7 +383,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇩🇪 DE 46 → tg@nicevpn123
+  name: 29|🇩🇪 DE 46 → tg@nicevpn123
   port: 39523
   server: 5.75.202.76
   skip-cert-verify: true
@@ -407,7 +391,7 @@ proxies:
   type: vmess
   udp: true
   uuid: e7e75749-9a57-4471-a9a7-5472be0a0cda
-- name: 28|🇩🇪 DE 47 → tg@nicevpn123
+- name: 29|🇩🇪 DE 47 → tg@nicevpn123
   password: telegram-id-directvpn
   port: 22222
   server: 51.20.211.209
@@ -415,7 +399,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- name: 28|🇩🇪 DE 48 → tg@nicevpn123
+- name: 29|🇩🇪 DE 48 → tg@nicevpn123
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   port: 46521
   server: foreign01.lovehjq.xyz
@@ -423,7 +407,7 @@ proxies:
   sni: lovehjq.xyz
   type: trojan
   udp: true
-- name: 28|🇩🇪 DE 5 → tg@nicevpn123
+- name: 29|🇩🇪 DE 5 → tg@nicevpn123
   password: c55c7930-858b-45f5-9ac3-d66b805a4569
   port: 443
   server: fr-full.privateip.net
@@ -432,7 +416,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇩🇪 DE 6 → tg@nicevpn123
+  name: 29|🇩🇪 DE 6 → tg@nicevpn123
   network: ws
   port: 443
   server: 185.135.9.208
@@ -446,13 +430,13 @@ proxies:
       Host: worker-noisy-paper-fa00.hetoj18200.workers.dev
     path: /kellie.makeup/linkvws
 - cipher: chacha20-ietf-poly1305
-  name: 28|🇩🇪 DE 7 → tg@nicevpn123
+  name: 29|🇩🇪 DE 7 → tg@nicevpn123
   password: jhblmJdHApr5afBcB1rtSt
   port: 20888
   server: 136.244.81.170
   type: ss
   udp: true
-- name: 28|🇩🇪 DE 8 → tg@nicevpn123
+- name: 29|🇩🇪 DE 8 → tg@nicevpn123
   password: telegram-id-directvpn
   port: 22222
   server: 3.122.21.121
@@ -461,13 +445,13 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 28|🇩🇪 DE 9 → tg@nicevpn123
+  name: 29|🇩🇪 DE 9 → tg@nicevpn123
   password: faBAoD54k87UJG7
   port: 2375
   server: 217.182.198.219
   type: ss
   udp: true
-- name: 38|🇩🇪DE_1|2.5MB/s
+- name: 39|🇩🇪DE_1|2.5MB/s
   password: 843aaf07-7e86-456b-8bf4-3ba46a1d516e
   port: 65535
   server: 89.58.25.163
@@ -477,7 +461,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 38|🇩🇪DE_2|981KB/s
+  name: 39|🇩🇪DE_2|981KB/s
   network: tcp
   port: 8443
   reality-opts:
@@ -490,7 +474,7 @@ proxies:
   uuid: 26e4d8b5-ee98-4a8d-88c9-7f81b7be3379
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 38|🇩🇪DE_8|1.8MB/s
+  name: 39|🇩🇪DE_8|1.8MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -502,7 +486,7 @@ proxies:
   type: vless
   uuid: fadab0a4-861d-4ebf-89ac-c9b34aef631a
 - client-fingerprint: chrome
-  name: 38|🇩🇪DE_10|1.8MB/s
+  name: 39|🇩🇪DE_10|1.8MB/s
   network: ws
   port: 12306
   server: 209.38.241.0
@@ -516,7 +500,7 @@ proxies:
     path: '%2F%40Marisa_kristifp%3Dchrome'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 38|🇩🇪DE_11|1.9MB/s
+  name: 39|🇩🇪DE_11|1.9MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -528,44 +512,44 @@ proxies:
   type: vless
   uuid: 43488128-319e-f480-64ea-0acdc712e2a8
 - cipher: rc4-md5
-  name: 39|🇩🇪DE-193.108.119.230-0298
+  name: 40|🇩🇪DE-193.108.119.230-0298
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 193.108.119.230
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇩🇪DE-185.177.229.245-0286
+  name: 40|🇩🇪DE-185.177.229.245-0286
   password: oXGp1+ihlfKg826H
   port: 1866
   server: 185.177.229.245
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇩🇪DE-46.101.245.131-0314
+  name: 40|🇩🇪DE-46.101.245.131-0314
   password: 9RviNa4tscjcmCB408vLSg
   port: 44354
   server: 46.101.245.131
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 40|🇩🇪DE-8.209.74.72-0126 | 14.736...
+  name: 41|🇩🇪DE-8.209.74.72-0126 | 14.736...
   password: PWpjPo3tqhPN4yRZ
   port: 20001
   server: 8.209.74.72
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 40|🇩🇪DE-38.60.250.107-0195 | 0.02...
+  name: 41|🇩🇪DE-38.60.250.107-0195 | 0.02...
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 38.60.250.107
   type: ss
 - cipher: aes-256-gcm
-  name: 40|🇩🇪DE-145.239.1.100-0209 | 0.0M...
+  name: 41|🇩🇪DE-145.239.1.100-0209 | 0.0M...
   password: KixLvKzwjekG00rm
   port: 5500
   server: 145.239.1.100
   type: ss
 - alterId: 0
   cipher: auto
-  name: 40|🇩🇪DE-64.188.66.196-0219 | 0.0M...
+  name: 41|🇩🇪DE-64.188.66.196-0219 | 0.0M...
   network: ws
   port: 443
   server: free-v7-09.elbrusway.online
@@ -579,21 +563,21 @@ proxies:
       Host: free-v7-09.elbrusway.online
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 46|0|国 01 | 1x DE
+  name: 47|0|国 01 | 1x DE
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 46|1|🇪 德国 01 | 1x DE
+  name: 47|1|🇪 德国 01 | 1x DE
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
-  name: 48|🇪DE德国2 944.6KB/s
+  name: 49|🇪DE德国2 944.6KB/s
   password: 8r%3C%5B9%27l6hAO%238ZQi
   port: 443
   server: 77.37.96.132

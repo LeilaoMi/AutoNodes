@@ -1,21 +1,5 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡2
-  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
-  port: 39204
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 12|🇸🇬 狮城特殊
-  password: amazonskr05
-  port: 443
-  server: 18.183.186.14
-  tfo: false
-  type: ss
-- name: 20|🇸🇬 新加坡 DigitalOcean数据中心
+- name: 21|🇸🇬 新加坡 DigitalOcean数据中心
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 159.89.207.154
@@ -24,7 +8,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 25|新加坡_051715610
+  name: 26|新加坡_051715610
   network: tcp
   port: '18000'
   server: 149.88.23.202
@@ -34,7 +18,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 25|新加坡_051715611
+  name: 26|新加坡_051715611
   network: ''
   port: '18000'
   server: 149.88.23.202
@@ -44,7 +28,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 25|新加坡_051715612
+  name: 26|新加坡_051715612
   network: tcp
   port: '18000'
   server: 149.88.23.207
@@ -52,7 +36,7 @@ proxies:
   tls: false
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: 26|Singapore_None_trojan_1112
+- name: 27|Singapore_None_trojan_1112
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -65,7 +49,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 26|Singapore_None_trojan_1135
+- name: 27|Singapore_None_trojan_1135
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 42841
@@ -78,7 +62,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 26|Singapore_Singapore_trojan_113...
+- name: 27|Singapore_Singapore_trojan_113...
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -89,7 +73,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: '26|Singapore_Singapore_trojan_113... #1'
+- name: '27|Singapore_Singapore_trojan_113... #1'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -102,7 +86,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 26|Singapore_None_trojan_1140
+- name: 27|Singapore_None_trojan_1140
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -115,7 +99,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 26|Singapore_None_trojan_1143
+- name: 27|Singapore_None_trojan_1143
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -127,7 +111,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 26|Singapore_Singapore_trojan_114...
+- name: 27|Singapore_Singapore_trojan_114...
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -140,7 +124,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '26|Singapore_Singapore_trojan_114... #1'
+- name: '27|Singapore_Singapore_trojan_114... #1'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -153,7 +137,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '26|Singapore_Singapore_trojan_114... #2'
+- name: '27|Singapore_Singapore_trojan_114... #2'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -164,7 +148,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: '26|Singapore_Singapore_trojan_114... #3'
+- name: '27|Singapore_Singapore_trojan_114... #3'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -177,14 +161,14 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 26|Singapore_Singapore_trojan_115...
+- name: 27|Singapore_Singapore_trojan_115...
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
   server: 172.104.186.18
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: '26|Singapore_Singapore_trojan_115... #1'
+- name: '27|Singapore_Singapore_trojan_115... #1'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -197,7 +181,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '26|Singapore_Singapore_trojan_115... #2'
+- name: '27|Singapore_Singapore_trojan_115... #2'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -210,7 +194,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 26|Singapore_None_trojan_11119
+- name: 27|Singapore_None_trojan_11119
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -224,7 +208,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
         AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 28|🇸🇬 SG 1 → tg@nicevpn123
+- name: 29|🇸🇬 SG 1 → tg@nicevpn123
   password: ISpGyFeSDr06
   port: 17418
   server: 175.41.172.250
@@ -233,20 +217,20 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇸🇬 SG 10 → tg@nicevpn123
+  name: 29|🇸🇬 SG 10 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 13.250.61.18
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 28|🇸🇬 SG 11 → tg@nicevpn123
+  name: 29|🇸🇬 SG 11 → tg@nicevpn123
   password: df30da54-317f-4726-98bd-8bc8ec8140c9
   port: 20177
   server: 139.59.119.251
   type: ss
   udp: true
-- name: 28|🇸🇬 SG 12 → tg@nicevpn123
+- name: 29|🇸🇬 SG 12 → tg@nicevpn123
   password: 15f804fa-27be-4b0f-85d4-cead43a483ef
   port: 30020
   server: us05.freeflyingcloud.xyz
@@ -255,27 +239,27 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇸🇬 SG 13 → tg@nicevpn123
+  name: 29|🇸🇬 SG 13 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 13.229.184.181
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇸🇬 SG 14 → tg@nicevpn123
+  name: 29|🇸🇬 SG 14 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 54.179.101.194
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇸🇬 SG 15 → tg@nicevpn123
+  name: 29|🇸🇬 SG 15 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 52.221.231.138
   type: ss
   udp: true
-- name: 28|🇸🇬 SG 16 → tg@nicevpn123
+- name: 29|🇸🇬 SG 16 → tg@nicevpn123
   password: yR7hP9aw5L
   port: 443
   server: 134.209.105.33
@@ -284,7 +268,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇸🇬 SG 17 → tg@nicevpn123
+  name: 29|🇸🇬 SG 17 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 18.142.56.221
@@ -292,7 +276,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇸🇬 SG 18 → tg@nicevpn123
+  name: 29|🇸🇬 SG 18 → tg@nicevpn123
   network: ws
   port: 80
   server: sg5g.xn--vhq70hxyat50h6wk.com
@@ -306,13 +290,13 @@ proxies:
       Host: sg5g.xn--vhq70hxyat50h6wk.com
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 28|🇸🇬 SG 19 → tg@nicevpn123
+  name: 29|🇸🇬 SG 19 → tg@nicevpn123
   password: df30da54-317f-4726-98bd-8bc8ec8140c9
   port: 20175
   server: 139.59.119.251
   type: ss
   udp: true
-- name: 28|🇸🇬 SG 2 → tg@nicevpn123
+- name: 29|🇸🇬 SG 2 → tg@nicevpn123
   network: ws
   password: 57460446-1a16-4ac4-bc7d-99b99a9ecc18
   port: 37508
@@ -326,21 +310,21 @@ proxies:
       Host: sg01.520s.pro
     path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252F520JICHANG'
 - cipher: aes-256-cfb
-  name: 28|🇸🇬 SG 20 → tg@nicevpn123
+  name: 29|🇸🇬 SG 20 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 18.141.207.80
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇸🇬 SG 21 → tg@nicevpn123
+  name: 29|🇸🇬 SG 21 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 52.221.183.250
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 28|🇸🇬 SG 22 → tg@nicevpn123
+  name: 29|🇸🇬 SG 22 → tg@nicevpn123
   password: df30da54-317f-4726-98bd-8bc8ec8140c9
   port: 20181
   server: 139.59.119.251
@@ -348,7 +332,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇸🇬 SG 23 → tg@nicevpn123
+  name: 29|🇸🇬 SG 23 → tg@nicevpn123
   network: ws
   port: 34237
   server: 8.218.136.67
@@ -359,7 +343,7 @@ proxies:
   uuid: 345c1562-1449-36ca-adf6-d3d683476712
   ws-opts:
     path: /db00
-- name: 28|🇸🇬 SG 24 → tg@nicevpn123
+- name: 29|🇸🇬 SG 24 → tg@nicevpn123
   password: 15f804fa-27be-4b0f-85d4-cead43a483ef
   port: 30018
   server: sg04.freeflyingcloud.xyz
@@ -368,20 +352,20 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇸🇬 SG 25 → tg@nicevpn123
+  name: 29|🇸🇬 SG 25 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 13.229.57.68
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 28|🇸🇬 SG 26 → tg@nicevpn123
+  name: 29|🇸🇬 SG 26 → tg@nicevpn123
   password: df30da54-317f-4726-98bd-8bc8ec8140c9
   port: 20180
   server: 139.59.119.251
   type: ss
   udp: true
-- name: 28|🇸🇬 SG 27 → tg@nicevpn123
+- name: 29|🇸🇬 SG 27 → tg@nicevpn123
   password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
   port: 443
   server: 139.162.49.215
@@ -389,13 +373,13 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇸🇬 SG 28 → tg@nicevpn123
+  name: 29|🇸🇬 SG 28 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 54.251.168.143
   type: ss
   udp: true
-- name: 28|🇸🇬 SG 29 → tg@nicevpn123
+- name: 29|🇸🇬 SG 29 → tg@nicevpn123
   password: 557340ab-4ae8-4593-989f-a8053bec73b6
   port: 443
   server: sg2-full.privateip.net
@@ -403,13 +387,13 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇸🇬 SG 3 → tg@nicevpn123
+  name: 29|🇸🇬 SG 3 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 54.169.147.64
   type: ss
   udp: true
-- name: 28|🇸🇬 SG 30 → tg@nicevpn123
+- name: 29|🇸🇬 SG 30 → tg@nicevpn123
   network: ws
   password: 57460446-1a16-4ac4-bc7d-99b99a9ecc18
   port: 37508
@@ -422,7 +406,7 @@ proxies:
     headers:
       Host: sg01.520s.pro
     path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252F520JICHANG'
-- name: 28|🇸🇬 SG 31 → tg@nicevpn123
+- name: 29|🇸🇬 SG 31 → tg@nicevpn123
   password: e9edd1db-e6f0-4c37-9be7-135335a81e6c
   port: 30020
   server: 128.199.13.40
@@ -431,13 +415,13 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇸🇬 SG 32 → tg@nicevpn123
+  name: 29|🇸🇬 SG 32 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 3.0.50.219
   type: ss
   udp: true
-- name: 28|🇸🇬 SG 33 → tg@nicevpn123
+- name: 29|🇸🇬 SG 33 → tg@nicevpn123
   password: 557340ab-4ae8-4593-989f-a8053bec73b6
   port: 443
   server: 139.162.39.206
@@ -445,21 +429,21 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 28|🇸🇬 SG 42 → tg@nicevpn123
+  name: 29|🇸🇬 SG 42 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 13.250.63.15
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 28|🇸🇬 SG 35 → tg@nicevpn123
+  name: 29|🇸🇬 SG 35 → tg@nicevpn123
   password: df30da54-317f-4726-98bd-8bc8ec8140c9
   port: 20182
   server: 139.59.119.251
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇸🇬 SG 36 → tg@nicevpn123
+  name: 29|🇸🇬 SG 36 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 54.254.167.160
@@ -467,7 +451,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇸🇬 SG 37 → tg@nicevpn123
+  name: 29|🇸🇬 SG 37 → tg@nicevpn123
   network: ws
   port: 80
   server: 8.217.85.14
@@ -480,7 +464,7 @@ proxies:
     path: /TG@dns68免费节点
 - alterId: 0
   cipher: auto
-  name: 28|🇸🇬 SG 38 → tg@nicevpn123
+  name: 29|🇸🇬 SG 38 → tg@nicevpn123
   network: ws
   port: 80
   server: 8.210.9.129
@@ -491,7 +475,7 @@ proxies:
   uuid: 89d4fac6-0ef2-4855-92ce-f454b7154202
   ws-opts:
     path: /TG@dns68公益节点
-- name: 28|🇸🇬 SG 39 → tg@nicevpn123
+- name: 29|🇸🇬 SG 39 → tg@nicevpn123
   password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
   port: 443
   server: sg3-full.privateip.net
@@ -499,21 +483,21 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: 28|🇸🇬 SG 4 → tg@nicevpn123
+  name: 29|🇸🇬 SG 4 → tg@nicevpn123
   password: a-wym4ovY4Yw
   port: 81
   server: 8.210.89.240
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇸🇬 SG 40 → tg@nicevpn123
+  name: 29|🇸🇬 SG 40 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 13.250.57.60
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇸🇬 SG 41 → tg@nicevpn123
+  name: 29|🇸🇬 SG 41 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 13.228.23.150
@@ -521,7 +505,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇸🇬 SG 5 → tg@nicevpn123
+  name: 29|🇸🇬 SG 5 → tg@nicevpn123
   network: ws
   port: 99
   server: 128.199.161.230
@@ -533,13 +517,13 @@ proxies:
   ws-opts:
     path: /v2ray
 - cipher: aes-256-cfb
-  name: 28|🇸🇬 SG 6 → tg@nicevpn123
+  name: 29|🇸🇬 SG 6 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 18.142.225.182
   type: ss
   udp: true
-- name: 28|🇸🇬 SG 7 → tg@nicevpn123
+- name: 29|🇸🇬 SG 7 → tg@nicevpn123
   password: I4bO2YDEgs
   port: 443
   server: 188.166.252.91
@@ -547,7 +531,7 @@ proxies:
   sni: aka.ms
   type: trojan
   udp: true
-- name: 28|🇸🇬 SG 8 → tg@nicevpn123
+- name: 29|🇸🇬 SG 8 → tg@nicevpn123
   password: af7d4ea7-e793-4030-9766-9a13e1f099f5
   port: 443
   server: 139.162.50.211
@@ -555,7 +539,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 28|🇸🇬 SG 9 → tg@nicevpn123
+  name: 29|🇸🇬 SG 9 → tg@nicevpn123
   password: df30da54-317f-4726-98bd-8bc8ec8140c9
   port: 20172
   server: 139.59.119.251
@@ -564,7 +548,7 @@ proxies:
 - alterId: 4
   cipher: auto
   client-fingerprint: chrome
-  name: 39|🇸🇬SG-103.253.26.20-0189
+  name: 40|🇸🇬SG-103.253.26.20-0189
   network: ws
   port: 443
   server: 103.253.26.20
@@ -579,7 +563,7 @@ proxies:
 - alterId: 4
   cipher: auto
   client-fingerprint: chrome
-  name: 39|🇸🇬SG-202.61.141.130-0188
+  name: 40|🇸🇬SG-202.61.141.130-0188
   network: ws
   port: 443
   server: 202.61.141.130
@@ -594,7 +578,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 39|🇸🇬SG-180.215.130.123-0185
+  name: 40|🇸🇬SG-180.215.130.123-0185
   network: ws
   port: 46452
   server: 180.215.130.123
@@ -609,7 +593,7 @@ proxies:
 - alterId: 4
   cipher: auto
   client-fingerprint: chrome
-  name: 39|🇸🇬SG-103.253.26.134-0184
+  name: 40|🇸🇬SG-103.253.26.134-0184
   network: ws
   port: 443
   server: 103.253.26.134
@@ -622,200 +606,200 @@ proxies:
       host: eeh7iewe.com
     path: /ws
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-217.197.161.138-0181
+  name: 40|🇸🇬SG-217.197.161.138-0181
   password: G!yBwPWH3Vao
   port: 805
   server: 217.197.161.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-217.197.161.136-0180
+  name: 40|🇸🇬SG-217.197.161.136-0180
   password: G!yBwPWH3Vao
   port: 810
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-81.90.189.18-0179
+  name: 40|🇸🇬SG-81.90.189.18-0179
   password: G!yBwPWH3Vao
   port: 800
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-81.90.189.18-0178
+  name: 40|🇸🇬SG-81.90.189.18-0178
   password: G!yBwPWH3Vao
   port: 806
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-81.90.189.152-0177
+  name: 40|🇸🇬SG-81.90.189.152-0177
   password: G!yBwPWH3Vao
   port: 800
   server: 81.90.189.152
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-217.197.161.164-0176
+  name: 40|🇸🇬SG-217.197.161.164-0176
   password: G!yBwPWH3Vao
   port: 803
   server: 217.197.161.164
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-81.90.189.152-0175
+  name: 40|🇸🇬SG-81.90.189.152-0175
   password: G!yBwPWH3Vao
   port: 805
   server: 81.90.189.152
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-81.90.189.18-0174
+  name: 40|🇸🇬SG-81.90.189.18-0174
   password: G!yBwPWH3Vao
   port: 812
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-217.197.161.136-0173
+  name: 40|🇸🇬SG-217.197.161.136-0173
   password: G!yBwPWH3Vao
   port: 803
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-217.197.161.164-0172
+  name: 40|🇸🇬SG-217.197.161.164-0172
   password: G!yBwPWH3Vao
   port: 806
   server: 217.197.161.164
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-217.197.161.164-0171
+  name: 40|🇸🇬SG-217.197.161.164-0171
   password: G!yBwPWH3Vao
   port: 811
   server: 217.197.161.164
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-217.197.161.136-0170
+  name: 40|🇸🇬SG-217.197.161.136-0170
   password: G!yBwPWH3Vao
   port: 806
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-217.197.161.166-0169
+  name: 40|🇸🇬SG-217.197.161.166-0169
   password: G!yBwPWH3Vao
   port: 800
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-217.197.161.136-0168
+  name: 40|🇸🇬SG-217.197.161.136-0168
   password: G!yBwPWH3Vao
   port: 808
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-217.197.161.166-0167
+  name: 40|🇸🇬SG-217.197.161.166-0167
   password: G!yBwPWH3Vao
   port: 811
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-217.197.161.166-0166
+  name: 40|🇸🇬SG-217.197.161.166-0166
   password: G!yBwPWH3Vao
   port: 801
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-217.197.161.138-0165
+  name: 40|🇸🇬SG-217.197.161.138-0165
   password: G!yBwPWH3Vao
   port: 811
   server: 217.197.161.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-217.197.161.166-0164
+  name: 40|🇸🇬SG-217.197.161.166-0164
   password: G!yBwPWH3Vao
   port: 804
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-81.90.189.18-0163
+  name: 40|🇸🇬SG-81.90.189.18-0163
   password: G!yBwPWH3Vao
   port: 801
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-217.197.161.166-0162
+  name: 40|🇸🇬SG-217.197.161.166-0162
   password: G!yBwPWH3Vao
   port: 812
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-81.90.189.18-0161
+  name: 40|🇸🇬SG-81.90.189.18-0161
   password: G!yBwPWH3Vao
   port: 810
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-217.197.161.166-0160
+  name: 40|🇸🇬SG-217.197.161.166-0160
   password: G!yBwPWH3Vao
   port: 805
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-217.197.161.164-0159
+  name: 40|🇸🇬SG-217.197.161.164-0159
   password: G!yBwPWH3Vao
   port: 807
   server: 217.197.161.164
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-217.197.161.166-0158
+  name: 40|🇸🇬SG-217.197.161.166-0158
   password: G!yBwPWH3Vao
   port: 802
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-217.197.161.138-0157
+  name: 40|🇸🇬SG-217.197.161.138-0157
   password: G!yBwPWH3Vao
   port: 807
   server: 217.197.161.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-81.90.189.18-0156
+  name: 40|🇸🇬SG-81.90.189.18-0156
   password: G!yBwPWH3Vao
   port: 805
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-217.197.161.166-0155
+  name: 40|🇸🇬SG-217.197.161.166-0155
   password: G!yBwPWH3Vao
   port: 806
   server: 217.197.161.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-81.90.189.18-0154
+  name: 40|🇸🇬SG-81.90.189.18-0154
   password: G!yBwPWH3Vao
   port: 802
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-81.90.189.18-0153
+  name: 40|🇸🇬SG-81.90.189.18-0153
   password: G!yBwPWH3Vao
   port: 807
   server: 81.90.189.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39|🇸🇬SG-217.197.161.138-0152
+  name: 40|🇸🇬SG-217.197.161.138-0152
   password: G!yBwPWH3Vao
   port: 802
   server: 217.197.161.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 40|🇸🇬SG-38.89.142.56-4445 | 4.89M...
+  name: 41|🇸🇬SG-38.89.142.56-4445 | 4.89M...
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 38.89.142.56
   type: ss
 - cipher: chacha20-ietf
-  name: 40|🇸🇬SG-103.36.91.32-0151 | 4.383...
+  name: 41|🇸🇬SG-103.36.91.32-0151 | 4.383...
   password: asd123456
   port: 8388
   server: 103.36.91.32
   type: ss
 - alterId: 0
   cipher: auto
-  name: 40|🇸🇬SG-210.87.111.241-0211 | 0.0...
+  name: 41|🇸🇬SG-210.87.111.241-0211 | 0.0...
   network: ws
   port: 20521
   server: 210.87.111.241
@@ -826,48 +810,48 @@ proxies:
   ws-opts:
     path: /
 - cipher: chacha20-ietf
-  name: 40|🇸🇬SG-103.36.91.23-0218 | 0.0MB
+  name: 41|🇸🇬SG-103.36.91.23-0218 | 0.0MB
   password: asd123456
   port: 8388
   server: 103.36.91.23
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 46|0|🇬加 01 | 1x SG
+  name: 47|0|🇬加 01 | 1x SG
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 46|0|🇬新加坡 02 | 1x SG
+  name: 47|0|🇬新加坡 02 | 1x SG
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 46|0|🇬新加坡 03 | 1x SG
+  name: 47|0|🇬新加坡 03 | 1x SG
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 46|1|🇬 新加坡 01 | 1x SG
+  name: 47|1|🇬 新加坡 01 | 1x SG
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 46|1|🇸🇬 新加坡 02 | 1x SG
+  name: 47|1|🇸🇬 新加坡 02 | 1x SG
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 46|1|🇬 新加坡 03 | 1x SG
+  name: 47|1|🇬 新加坡 03 | 1x SG
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
   port: 36175
   server: free.2weradf.xyz
@@ -875,7 +859,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 46|12|🇬 新加坡|@ripaojiedian
+  name: 47|12|🇬 新加坡|@ripaojiedian
   port: 23910
   server: hzz9.fgmcx.top
   skip-cert-verify: false
@@ -884,14 +868,14 @@ proxies:
   type: vmess
   uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
 - cipher: chacha20-ietf-poly1305
-  name: 46|12|🇬 新加坡2|@ripaojiedian
+  name: 47|12|🇬 新加坡2|@ripaojiedian
   password: cdc48a7a-b618-45af-a831-5afbd686b02f
   port: 13203
   server: gg21.hangfengjiasu.com
   tfo: false
   type: ss
 - alterId: 0
-  name: 48|🇬SG新加坡3
+  name: 49|🇬SG新加坡3
   password: BxceQaOe
   port: 19465
   server: 18.183.160.17

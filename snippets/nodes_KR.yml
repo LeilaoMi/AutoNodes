@@ -1,37 +1,12 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12|🇰🇷 韩国2
-  network: ws
-  port: 30000
-  server: 137.220.130.58
-  servername: www.68703921.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.68703921.xyz
-    path: /path/011410073331
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 12|🇰🇷 韩国特殊
-  password: amazonskr05
-  port: 443
-  server: 3.112.220.140
-  tfo: false
-  type: ss
-- name: 20|🇰🇷 韩国 CCZZUU.TOP
+- name: 21|🇰🇷 韩国 CCZZUU.TOP
   password: 8r<[9'l6hAO#8ZQi
   port: 19461
   server: 123.99.111.135
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
-- name: 23|韩国(yudou789.top 玉豆免费节点)
+- name: 24|韩国(yudou789.top 玉豆免费节点)
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 12300
@@ -42,7 +17,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #1'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #1'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 34973
@@ -53,7 +28,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #2'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #2'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 15000
@@ -64,7 +39,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #3'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #3'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 26214
@@ -75,7 +50,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #4'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #4'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 18853
@@ -86,7 +61,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #5'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #5'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 11310
@@ -97,7 +72,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #6'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #6'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 19888
@@ -108,7 +83,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #7'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #7'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 18786
@@ -119,7 +94,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #8'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #8'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 16993
@@ -130,7 +105,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #9'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #9'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 12300
@@ -141,7 +116,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #10'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #10'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 18889
@@ -152,7 +127,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #11'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #11'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 12300
@@ -163,7 +138,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #12'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #12'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 10909
@@ -174,7 +149,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #13'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #13'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 10443
@@ -185,7 +160,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #14'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #14'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 11371
@@ -196,7 +171,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #15'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #15'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 38699
@@ -207,7 +182,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #16'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #16'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 10912
@@ -218,7 +193,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #17'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #17'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 27015
@@ -229,7 +204,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #18'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #18'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 18790
@@ -240,7 +215,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #19'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #19'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 37215
@@ -251,7 +226,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #20'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #20'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 11001
@@ -262,7 +237,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #21'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #21'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 25010
@@ -273,7 +248,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #22'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #22'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 32677
@@ -284,7 +259,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #23'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #23'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 30005
@@ -295,7 +270,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #24'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #24'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 22335
@@ -306,7 +281,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #26'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #26'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 10001
@@ -317,7 +292,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #27'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #27'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 20031
@@ -328,7 +303,7 @@ proxies:
     headers:
       Host: vpn1.rnmcnm.com
     path: '%2Ftrj-ws'
-- name: '23|韩国(yudou789.top 玉豆免费节点) #28'
+- name: '24|韩国(yudou789.top 玉豆免费节点) #28'
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 10017
@@ -341,7 +316,7 @@ proxies:
     path: '%2Ftrj-ws'
 - alterId: 0
   cipher: auto
-  name: 25|韩国_051715419
+  name: 26|韩国_051715419
   network: ws
   port: '443'
   server: 152.67.208.31
@@ -355,7 +330,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 28|🇰🇷 KR 1 → tg@nicevpn123
+  name: 29|🇰🇷 KR 1 → tg@nicevpn123
   network: ws
   port: 80
   server: awskr1.072659.xyz
@@ -369,105 +344,105 @@ proxies:
       Host: awskr1.072659.xyz
     path: /
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 10 → tg@nicevpn123
+  name: 29|🇰🇷 KR 10 → tg@nicevpn123
   password: qwerREWQ@@
   port: 58449
   server: 203.234.238.140
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 11 → tg@nicevpn123
+  name: 29|🇰🇷 KR 11 → tg@nicevpn123
   password: qwerREWQ@@
   port: 42978
   server: p230.panda004.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 12 → tg@nicevpn123
+  name: 29|🇰🇷 KR 12 → tg@nicevpn123
   password: qwerREWQ@@
   port: 57743
   server: p238.panda004.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 13 → tg@nicevpn123
+  name: 29|🇰🇷 KR 13 → tg@nicevpn123
   password: qwerREWQ@@
   port: 50942
   server: p233.panda004.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 14 → tg@nicevpn123
+  name: 29|🇰🇷 KR 14 → tg@nicevpn123
   password: qwerREWQ@@
   port: 42978
   server: 221.150.109.81
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 15 → tg@nicevpn123
+  name: 29|🇰🇷 KR 15 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 54.180.9.46
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 28|🇰🇷 KR 33 → tg@nicevpn123
+  name: 29|🇰🇷 KR 33 → tg@nicevpn123
   password: qwerREWQ@@
   port: 50942
   server: 222.112.15.134
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 17 → tg@nicevpn123
+  name: 29|🇰🇷 KR 17 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 13.125.127.101
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 18 → tg@nicevpn123
+  name: 29|🇰🇷 KR 18 → tg@nicevpn123
   password: qwerREWQ@@
   port: 42839
   server: p236.panda004.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 19 → tg@nicevpn123
+  name: 29|🇰🇷 KR 19 → tg@nicevpn123
   password: qwerREWQ@@
   port: 4315
   server: 125.141.26.10
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 2 → tg@nicevpn123
+  name: 29|🇰🇷 KR 2 → tg@nicevpn123
   password: qwerREWQ@@
   port: 4005
   server: 203.234.238.145
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 20 → tg@nicevpn123
+  name: 29|🇰🇷 KR 20 → tg@nicevpn123
   password: qwerREWQ@@
   port: 58449
   server: p234.panda004.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 21 → tg@nicevpn123
+  name: 29|🇰🇷 KR 21 → tg@nicevpn123
   password: qwerREWQ@@
   port: 43926
   server: 221.150.109.87
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 22 → tg@nicevpn123
+  name: 29|🇰🇷 KR 22 → tg@nicevpn123
   password: qwerREWQ@@
   port: 57729
   server: p228.panda004.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 23 → tg@nicevpn123
+  name: 29|🇰🇷 KR 23 → tg@nicevpn123
   password: qwerREWQ@@
   port: 51472
   server: p222.panda001.net
@@ -475,7 +450,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇰🇷 KR 24 → tg@nicevpn123
+  name: 29|🇰🇷 KR 24 → tg@nicevpn123
   port: 10001
   server: 103.214.68.57
   skip-cert-verify: true
@@ -484,97 +459,97 @@ proxies:
   udp: true
   uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 25 → tg@nicevpn123
+  name: 29|🇰🇷 KR 25 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 13.209.11.98
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 26 → tg@nicevpn123
+  name: 29|🇰🇷 KR 26 → tg@nicevpn123
   password: qwerREWQ@@
   port: 58449
   server: 222.112.15.140
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 27 → tg@nicevpn123
+  name: 29|🇰🇷 KR 27 → tg@nicevpn123
   password: qwerREWQ@@
   port: 54345
   server: 211.201.169.70
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 28 → tg@nicevpn123
+  name: 29|🇰🇷 KR 28 → tg@nicevpn123
   password: qwerREWQ@@
   port: 51472
   server: p232.panda004.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 29 → tg@nicevpn123
+  name: 29|🇰🇷 KR 29 → tg@nicevpn123
   password: qwerREWQ@@
   port: 42839
   server: 221.150.109.18
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 3 → tg@nicevpn123
+  name: 29|🇰🇷 KR 3 → tg@nicevpn123
   password: qwerREWQ@@
   port: 49032
   server: p221.panda001.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 30 → tg@nicevpn123
+  name: 29|🇰🇷 KR 30 → tg@nicevpn123
   password: qwerREWQ@@
   port: 42185
   server: p220.panda001.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 31 → tg@nicevpn123
+  name: 29|🇰🇷 KR 31 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 54.180.133.185
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 32 → tg@nicevpn123
+  name: 29|🇰🇷 KR 32 → tg@nicevpn123
   password: qwerREWQ@@
   port: 54345
   server: 218.237.185.230
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 34 → tg@nicevpn123
+  name: 29|🇰🇷 KR 34 → tg@nicevpn123
   password: qwerREWQ@@
   port: 58449
   server: p226.panda004.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 35 → tg@nicevpn123
+  name: 29|🇰🇷 KR 35 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 13.125.25.193
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 36 → tg@nicevpn123
+  name: 29|🇰🇷 KR 36 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 54.180.156.133
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 37 → tg@nicevpn123
+  name: 29|🇰🇷 KR 37 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 54.180.138.72
   type: ss
   udp: true
-- name: 28|🇰🇷 KR 38 → tg@nicevpn123
+- name: 29|🇰🇷 KR 38 → tg@nicevpn123
   password: 3df22ece-e33a-429a-bbbc-72f468755d5c
   port: 443
   server: 59.16.152.27
@@ -582,63 +557,63 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 39 → tg@nicevpn123
+  name: 29|🇰🇷 KR 39 → tg@nicevpn123
   password: qwerREWQ@@
   port: 43926
   server: p231.panda004.net
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 28|🇰🇷 KR 4 → tg@nicevpn123
+  name: 29|🇰🇷 KR 4 → tg@nicevpn123
   password: qwerREWQ@@
   port: 57743
   server: 221.150.109.11
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 40 → tg@nicevpn123
+  name: 29|🇰🇷 KR 40 → tg@nicevpn123
   password: qwerREWQ@@
   port: 54345
   server: p110.panda001.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 41 → tg@nicevpn123
+  name: 29|🇰🇷 KR 41 → tg@nicevpn123
   password: qwerREWQ@@
   port: 51472
   server: 221.150.109.88
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 42 → tg@nicevpn123
+  name: 29|🇰🇷 KR 42 → tg@nicevpn123
   password: qwerREWQ@@
   port: 49032
   server: 125.141.26.7
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 43 → tg@nicevpn123
+  name: 29|🇰🇷 KR 43 → tg@nicevpn123
   password: qwerREWQ@@
   port: 10218
   server: p229.panda004.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 44 → tg@nicevpn123
+  name: 29|🇰🇷 KR 44 → tg@nicevpn123
   password: qwerREWQ@@
   port: 10218
   server: 125.141.26.11
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 45 → tg@nicevpn123
+  name: 29|🇰🇷 KR 45 → tg@nicevpn123
   password: qwerREWQ@@
   port: 49032
   server: p227.panda004.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 46 → tg@nicevpn123
+  name: 29|🇰🇷 KR 46 → tg@nicevpn123
   password: qwerREWQ@@
   port: 5304
   server: p078.panda001.net
@@ -646,7 +621,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇰🇷 KR 47 → tg@nicevpn123
+  name: 29|🇰🇷 KR 47 → tg@nicevpn123
   network: ws
   port: 80
   server: 52.78.50.117
@@ -658,35 +633,35 @@ proxies:
   ws-opts:
     path: /
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 5 → tg@nicevpn123
+  name: 29|🇰🇷 KR 5 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 13.125.31.113
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 6 → tg@nicevpn123
+  name: 29|🇰🇷 KR 6 → tg@nicevpn123
   password: qwerREWQ@@
   port: 53258
   server: p220.panda001.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 7 → tg@nicevpn123
+  name: 29|🇰🇷 KR 7 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 13.124.212.29
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 8 → tg@nicevpn123
+  name: 29|🇰🇷 KR 8 → tg@nicevpn123
   password: qwerREWQ@@
   port: 4005
   server: p225.panda004.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|🇰🇷 KR 9 → tg@nicevpn123
+  name: 29|🇰🇷 KR 9 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 13.125.19.50
@@ -695,7 +670,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 39|🇰🇷KR-183.109.131.75-0288
+  name: 40|🇰🇷KR-183.109.131.75-0288
   network: ws
   port: 20086
   server: 183.109.131.75
@@ -708,26 +683,26 @@ proxies:
       host: ''
     path: /
 - cipher: aes-256-cfb
-  name: 39,40|SC-154.90.63.177-0173 | 0.766M...
+  name: 40,41|SC-154.90.63.177-0173 | 0.766M...
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.90.63.177
   type: ss
 - cipher: aes-256-cfb
-  name: 39,40|SC-154.90.62.168-0171 | 0.211M...
+  name: 40,41|SC-154.90.62.168-0171 | 0.211M...
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.90.62.168
   type: ss
 - cipher: aes-256-cfb
-  name: 39,40|🇰🇷KR-218.237.185.230-0154 | 1....
+  name: 40,41|🇰🇷KR-218.237.185.230-0154 | 1....
   password: qwerREWQ@@
   port: 4652
   server: p141.panda001.net
   type: ss
 - alterId: 0
   cipher: auto
-  name: 40|🇰🇷KR-152.67.218.38-0213 | 3.83...
+  name: 41|🇰🇷KR-152.67.218.38-0213 | 3.83...
   network: ws
   port: 443
   server: 152.67.218.38
@@ -741,7 +716,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 40|🇰🇷KR-152.67.208.31-0147 | 3.08...
+  name: 41|🇰🇷KR-152.67.208.31-0147 | 3.08...
   network: ws
   port: 443
   server: chuncheon03.zgjok.com
@@ -754,30 +729,30 @@ proxies:
       Host: chuncheon03.zgjok.com
     path: /
 - cipher: aes-256-gcm
-  name: 40|🇰🇷KR-141.164.45.187-0197 | 0.1...
+  name: 41|🇰🇷KR-141.164.45.187-0197 | 0.1...
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 141.164.45.187
   type: ss
 - cipher: aes-256-cfb
-  name: 40|🇰🇷KR-218.237.185.230-0184 | 0....
+  name: 41|🇰🇷KR-218.237.185.230-0184 | 0....
   password: qwerREWQ@@
   port: 4652
   server: 218.237.185.230
   type: ss
 - cipher: aes-256-cfb
-  name: 40|🇰🇷KR-221.139.79.57-0163 | 0.08...
+  name: 41|🇰🇷KR-221.139.79.57-0163 | 0.08...
   password: qwerREWQ@@
   port: 13979
   server: 221.139.79.57
   type: ss
 - cipher: aes-256-gcm
-  name: 40|🇰🇷KR-141.164.45.187-0198 | 0.0...
+  name: 41|🇰🇷KR-141.164.45.187-0198 | 0.0...
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 141.164.45.187
   type: ss
-- name: 40|🇰🇷KR-132.226.172.168-0224 | 0....
+- name: 41|🇰🇷KR-132.226.172.168-0224 | 0....
   password: 3c91d857-2d40-39b9-81c0-f6adde8037ff
   port: 4588
   server: sol.doubledou.win
@@ -785,28 +760,28 @@ proxies:
   sni: sol.doubledou.win
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 46|0|🇷国 01 | 1x KR
+  name: 47|0|🇷国 01 | 1x KR
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 46|0|🇷韩国 02 | 1x KR
+  name: 47|0|🇷韩国 02 | 1x KR
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 46|1|🇷 韩国 01 | 1x KR
+  name: 47|1|🇷 韩国 01 | 1x KR
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 46|1|🇰🇷 韩国 02 | 1x KR
+  name: 47|1|🇰🇷 韩国 02 | 1x KR
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
   port: 36313
   server: free.2weradf.xyz
@@ -814,7 +789,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 46|12|🇷 韩国|@ripaojiedian
+  name: 47|12|🇷 韩国|@ripaojiedian
   port: 17232
   server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
   skip-cert-verify: false
@@ -823,14 +798,14 @@ proxies:
   type: vmess
   uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
 - cipher: aes-256-cfb
-  name: 46|12|🇰🇷 韩国|@ripaojiedian
+  name: 47|12|🇰🇷 韩国|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 3.34.192.249
   tfo: false
   type: ss
 - alterId: 0
-  name: 48|🇷KR国
+  name: 49|🇷KR国
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 19888
   server: 14.36.170.70
@@ -840,7 +815,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇷KR韩国2
+  name: 49|🇷KR韩国2
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 18790
   server: 121.172.210.22
@@ -850,7 +825,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇰🇷KR韩国3
+  name: 49|🇰🇷KR韩国3
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 16993
   server: 112.166.213.102
@@ -860,7 +835,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇰🇷KR韩国4
+  name: 49|🇰🇷KR韩国4
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 10443
   server: 211.227.98.59
@@ -870,7 +845,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇷KR韩国5
+  name: 49|🇷KR韩国5
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 11310
   server: 121.180.171.43
@@ -880,7 +855,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇷KR韩国6
+  name: 49|🇷KR韩国6
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 11001
   server: 59.12.158.224
@@ -890,7 +865,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇰🇷KR韩国7
+  name: 49|🇰🇷KR韩国7
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 11371
@@ -901,7 +876,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇷KR韩国8
+  name: 49|🇷KR韩国8
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 25010
   server: 112.172.55.228
@@ -911,7 +886,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇰🇷KR韩国9
+  name: 49|🇰🇷KR韩国9
   network: ws
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 38699
@@ -922,7 +897,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇷KR韩国10
+  name: 49|🇷KR韩国10
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 10909
   server: 221.149.34.13
@@ -932,7 +907,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇰🇷KR韩国11
+  name: 49|🇰🇷KR韩国11
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 12300
   server: 14.41.44.168
@@ -942,7 +917,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇷KR韩国12
+  name: 49|🇷KR韩国12
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 22335
   server: 211.225.164.199
@@ -952,7 +927,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇰🇷KR韩国13
+  name: 49|🇰🇷KR韩国13
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 27015
   server: 175.201.34.127
@@ -962,7 +937,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇰🇷KR韩国14
+  name: 49|🇰🇷KR韩国14
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 10443
   server: 59.21.203.65
@@ -972,7 +947,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇰🇷KR韩国15
+  name: 49|🇰🇷KR韩国15
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 10001
   server: 121.179.212.16
@@ -982,7 +957,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇷KR韩国16
+  name: 49|🇷KR韩国16
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 10017
   server: 121.162.61.37
@@ -992,7 +967,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇰🇷KR韩国17
+  name: 49|🇰🇷KR韩国17
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 18786
   server: 175.201.34.127
@@ -1002,7 +977,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇷KR韩国18
+  name: 49|🇷KR韩国18
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 18889
   server: 14.40.27.140
@@ -1012,7 +987,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇰🇷KR韩国19
+  name: 49|🇰🇷KR韩国19
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 32677
   server: 183.103.4.162
@@ -1022,7 +997,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇷KR韩国20
+  name: 49|🇷KR韩国20
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 37215
   server: 222.98.185.243
@@ -1032,7 +1007,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇰🇷KR韩国21
+  name: 49|🇰🇷KR韩国21
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 20031
   server: 121.162.61.37
@@ -1042,7 +1017,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇰🇷KR韩国22
+  name: 49|🇰🇷KR韩国22
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 26214
   server: 121.178.83.161
@@ -1052,7 +1027,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇰🇷KR韩国23
+  name: 49|🇰🇷KR韩国23
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 10912
   server: 218.150.34.228
@@ -1062,7 +1037,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇰🇷KR韩国24
+  name: 49|🇰🇷KR韩国24
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 34973
   server: 106.245.187.246
@@ -1072,7 +1047,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇷KR韩国25
+  name: 49|🇷KR韩国25
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 18853
   server: 221.158.4.230
@@ -1082,7 +1057,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇰🇷KR韩国26
+  name: 49|🇰🇷KR韩国26
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 30005
   server: 112.163.117.142
@@ -1092,7 +1067,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇷KR韩国27
+  name: 49|🇷KR韩国27
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 12300
   server: 59.2.63.17
@@ -1102,7 +1077,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 48|🇰🇷KR韩国28
+  name: 49|🇰🇷KR韩国28
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   port: 15000
   server: 121.132.124.22
