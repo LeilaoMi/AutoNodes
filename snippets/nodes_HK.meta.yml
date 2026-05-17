@@ -1,12 +1,12 @@
 proxies:
-- name: 26|香港_051715257
+- name: 26|香港_051719253
   password: 67f4b8ff-15cf-3ec9-b09d-c31a4728c652
   port: 13555
   server: apple.1337.cx
   skip-cert-verify: false
   sni: windows11.dpdns.org
   type: trojan
-- name: 26|香港_051715258
+- name: 26|香港_051719254
   password: 67f4b8ff-15cf-3ec9-b09d-c31a4728c652
   port: 13777
   server: apple.1337.cx
@@ -15,7 +15,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 26|香港_051715259
+  name: 26|香港_051719255
   network: tcp
   port: '47286'
   server: 47.239.132.90
@@ -25,17 +25,7 @@ proxies:
   uuid: 8bd1fbf2-cef1-4e54-aa5b-ba7bde574dd9
 - alterId: 0
   cipher: auto
-  name: 26|香港_051715260
-  network: tcp
-  port: '11638'
-  server: 27.122.57.43
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8bd1fbf2-cef1-4e54-aa5b-ba7bde574dd9
-- alterId: 0
-  cipher: auto
-  name: 26|香港_051715261
+  name: 26|香港_051719257
   network: ws
   port: '37849'
   server: 154.205.136.122
@@ -49,7 +39,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26|香港_051715262
+  name: 26|香港_051719258
   network: ''
   port: '22324'
   server: 213.156.141.52
@@ -59,7 +49,7 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 26|香港_051715263
+  name: 26|香港_051719259
   network: tcp
   port: '22324'
   server: 213.156.141.52
@@ -69,17 +59,7 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 26|香港_051715265
-  network: tcp
-  port: '11638'
-  server: 27.122.57.43
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1f2d0b2b-e214-4fc1-92cc-1c230be78d7c
-- alterId: 0
-  cipher: auto
-  name: 26|香港_051715266
+  name: 26|香港_051719261
   network: tcp
   port: '47286'
   server: 47.239.132.90
@@ -89,17 +69,7 @@ proxies:
   uuid: a3de462b-0276-4003-8f34-536b0f9d340c
 - alterId: 0
   cipher: auto
-  name: 26|香港_051715267
-  network: tcp
-  port: '47286'
-  server: 47.239.132.90
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0be3a336-85ad-4c42-930b-05318236e68c
-- alterId: 0
-  cipher: auto
-  name: 26|香港_051715268
+  name: 26|香港_051719263
   network: ws
   port: '443'
   server: 47.238.82.7
@@ -113,7 +83,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26|香港_051715269
+  name: 26|香港_051719264
   network: tcp
   port: '47286'
   server: 47.239.132.90

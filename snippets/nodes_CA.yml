@@ -32,7 +32,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 26|加拿大_051715005
+  name: 26|加拿大_051719005
   network: tcp
   port: '18000'
   server: 134.195.196.211
@@ -42,7 +42,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 26|加拿大_051715136
+  name: 26|加拿大_051719137
   network: ''
   port: '18000'
   server: 23.162.200.198

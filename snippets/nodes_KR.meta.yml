@@ -328,20 +328,6 @@ proxies:
     path: '%2Ftrj-ws'
 - alterId: 0
   cipher: auto
-  name: 26|韩国_051715419
-  network: ws
-  port: '443'
-  server: 152.67.208.31
-  servername: chuncheon03.zgjok.com
-  tls: true
-  type: vmess
-  uuid: 81d5cac4-d039-4874-9a20-c391f580012d
-  ws-opts:
-    headers:
-      Host: chuncheon03.zgjok.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 29|🇰🇷 KR 1 → tg@nicevpn123
   network: ws
   port: 80

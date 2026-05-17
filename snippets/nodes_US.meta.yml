@@ -468,7 +468,7 @@ proxies:
     path: '%2Fassignment'
 - alterId: 0
   cipher: aes-128-gcm
-  name: 26|美国_0517152885
+  name: 26|美国_0517192867
   network: tcp
   port: '18000'
   server: 67.220.95.3
@@ -489,7 +489,7 @@ proxies:
   uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152844
+  name: 26|美国_0517192827
   network: tcp
   port: '18000'
   server: 38.114.123.42
@@ -499,7 +499,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152856
+  name: 26|美国_0517192839
   network: tcp
   port: '43474'
   server: 67.209.184.142
@@ -509,7 +509,7 @@ proxies:
   uuid: 8bd1fbf2-cef1-4e54-aa5b-ba7bde574dd9
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152866 L0
+  name: 26|美国_0517192848 L0
   network: raw
   port: '443'
   server: 165.140.216.141
@@ -519,7 +519,7 @@ proxies:
   uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152867
+  name: 26|美国_0517192849
   network: ''
   port: '18000'
   server: 84.17.41.2
@@ -529,7 +529,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152869
+  name: 26|美国_0517192851
   network: tcp
   port: '18000'
   server: 84.17.41.2
@@ -539,7 +539,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152874 L0
+  name: 26|美国_0517192856 L0
   network: ''
   port: '443'
   server: 165.140.216.141
@@ -549,7 +549,7 @@ proxies:
   uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152875
+  name: 26|美国_0517192857
   network: tcp
   port: '22324'
   server: 216.106.185.141
@@ -559,7 +559,7 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152876
+  name: 26|美国_0517192858
   network: tcp
   port: '55310'
   server: 23.226.135.232
@@ -569,7 +569,7 @@ proxies:
   uuid: 22066968-ef90-455e-b981-4bf782d25386
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152877
+  name: 26|美国_0517192859
   network: ws
   port: '2053'
   server: 172.236.249.24
@@ -583,7 +583,7 @@ proxies:
     path: /usavm
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152878
+  name: 26|美国_0517192860
   network: ws
   port: '2053'
   server: 172.235.33.179
@@ -597,7 +597,7 @@ proxies:
     path: /usavm
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152879
+  name: 26|美国_0517192861
   network: tcp
   port: '18000'
   server: 38.91.107.49
@@ -607,7 +607,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152880
+  name: 26|美国_0517192862
   network: tcp
   port: '18000'
   server: 169.197.142.22
@@ -617,7 +617,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152881
+  name: 26|美国_0517192863
   network: ws
   port: '80'
   server: us02.a0a.xyz
@@ -631,7 +631,7 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152882
+  name: 26|美国_0517192864
   network: tcp
   port: '18000'
   server: 38.110.1.246
@@ -641,7 +641,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152883
+  name: 26|美国_0517192865
   network: ws
   port: '443'
   server: sanjose01.zgjok.com
@@ -655,7 +655,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152884
+  name: 26|美国_0517192866
   network: tcp
   port: '22324'
   server: 66.163.117.58
@@ -665,7 +665,7 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152886
+  name: 26|美国_0517192868
   network: tcp
   port: '3593'
   server: 69.12.91.52
@@ -675,7 +675,7 @@ proxies:
   uuid: a3de462b-0276-4003-8f34-536b0f9d340c
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152887
+  name: 26|美国_0517192869
   network: ws
   port: '443'
   server: 192.9.130.170
@@ -689,7 +689,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152889
+  name: 26|美国_0517192871
   network: tcp
   port: '3593'
   server: 69.12.91.52
@@ -699,7 +699,7 @@ proxies:
   uuid: 8bd1fbf2-cef1-4e54-aa5b-ba7bde574dd9
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152923
+  name: 26|美国_0517192872
   network: tcp
   port: '43474'
   server: 67.209.184.142
@@ -709,7 +709,7 @@ proxies:
   uuid: 1f2d0b2b-e214-4fc1-92cc-1c230be78d7c
 - alterId: 0
   cipher: auto
-  name: 26|美国_0517152924
+  name: 26|美国_0517192873
   network: tcp
   port: '43474'
   server: 67.209.184.142
@@ -717,6 +717,16 @@ proxies:
   tls: false
   type: vmess
   uuid: a3de462b-0276-4003-8f34-536b0f9d340c
+- alterId: 0
+  cipher: auto
+  name: 26|美国_0517192904
+  network: tcp
+  port: '3593'
+  server: 69.12.91.52
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1f2d0b2b-e214-4fc1-92cc-1c230be78d7c
 - cipher: aes-256-cfb
   name: 27,35,45|tg频道:@ripaojiedian
   password: amazonskr05

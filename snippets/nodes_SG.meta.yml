@@ -32,7 +32,7 @@ proxies:
     path: '%2Fproxyip%3DProxyIP.CMLiussss.net'
 - alterId: 0
   cipher: auto
-  name: 26|新加坡_051715610
+  name: 26|新加坡_051719606
   network: tcp
   port: '18000'
   server: 149.88.23.202
@@ -42,7 +42,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 26|新加坡_051715611
+  name: 26|新加坡_051719607
   network: ''
   port: '18000'
   server: 149.88.23.202
@@ -52,7 +52,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 26|新加坡_051715612
+  name: 26|新加坡_051719608
   network: tcp
   port: '18000'
   server: 149.88.23.207

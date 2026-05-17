@@ -11,7 +11,7 @@ proxies:
     headers:
       Host: sni.111000.dns.army
     path: '%2F%3Fhttps%253A%252F%252Ft.me%252FWangCai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D'
-- name: 26|瑞典_051715094
+- name: 26|瑞典_051719095
   password: 7aXwJPnpAJ
   port: 50824
   server: 150.241.65.18
