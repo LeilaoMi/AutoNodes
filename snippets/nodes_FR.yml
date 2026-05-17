@@ -20,7 +20,7 @@ proxies:
     headers:
       Host: cchh2.pages.dev
     path: '%2F'
-- name: 15|法国_051704352
+- name: 15|法国_051710359
   network: tcp
   password: 03mpolj39zyewzufal2r
   port: 55646

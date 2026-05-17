@@ -9,7 +9,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: 15|台湾_051704070
+  name: 15|台湾_051710001
   network: tcp
   port: '30811'
   server: v11.zgtfqs.click
@@ -17,30 +17,17 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: db
-  name: 16,28|🇹🇼TW_8|2.1MB/s
-  network: grpc
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.47
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-- grpc-opts:
-    grpc-service-name: db
-  name: 16|Taiwan_Taichung_trojan_1125
-  network: grpc
-  password: 3f5bc61547b1f0d9
-  port: 443
-  server: 125.227.86.47
-  skip-cert-verify: true
-  sni: TG.freecodes
-  tls: true
-  type: trojan
-- name: 16|Taiwan_Taipei_trojan_1126
+- alterId: 2
+  cipher: auto
+  name: 15,16|Taiwan_Kaohsiung City_vmess_11...
+  network: ''
+  port: 30811
+  server: v11.zgtfqs.click
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 16|Taiwan_Taipei_trojan_1125
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 16443
@@ -51,23 +38,36 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- alpn:
-  - h2
-  grpc-opts:
+- name: 16|Taiwan_Taipei_trojan_1126
+  password: 60207953-ef79-4f8f-8062-63c281f34c6b
+  port: 8080
+  server: tw4.453521.xyz
+  sni: tw4.453521.xyz
+  tls: true
+  type: trojan
+- grpc-opts:
     grpc-service-name: db
-  name: 16,28|🇹🇼TW_9|712KB/s
+  name: 16,28|🇹🇼TW_8|3.7MB/s
   network: grpc
   password: 3f5bc61547b1f0d9
   port: 443
-  server: 125.227.86.48
+  server: 125.227.86.47
   skip-cert-verify: true
   sni: TG.freecodes
+  tls: true
+  type: trojan
+- name: 16|Taiwan_Taipei_trojan_1128
+  password: 68077ffe-3368-4755-98d0-9367aa1ad6f2
+  port: 8080
+  server: tw4.453521.xyz
+  sni: tw4.453521.xyz
+  tls: true
   type: trojan
 - alpn:
   - h2
   grpc-opts:
     grpc-service-name: db
-  name: 16,28|🇹🇼TW_10|1.6MB/s
+  name: 16|Taiwan_Taichung_trojan_1129
   network: grpc
   password: 3f5bc61547b1f0d9
   port: 443
@@ -79,7 +79,19 @@ proxies:
   - h2
   grpc-opts:
     grpc-service-name: db
-  name: 16,28|🇹🇼TW_7|4.6MB/s
+  name: 16|Taiwan_Taichung_trojan_1130
+  network: grpc
+  password: 3f5bc61547b1f0d9
+  port: 443
+  server: 125.227.86.48
+  skip-cert-verify: true
+  sni: TG.freecodes
+  type: trojan
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: 16|Taiwan_Taichung_trojan_1131
   network: grpc
   password: 0a9f1f5a397bd427
   port: 443
@@ -90,30 +102,38 @@ proxies:
 - alterId: 0
   cipher: auto
   http-opts:
-    headers: {}
-    path:
-    - /ABCDE
-  name: 16|Taiwan_None_vmess_1134
-  network: http
-  port: 55386
-  server: 103.127.243.60
-  tls: false
-  type: vmess
-  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
-- alterId: 0
-  cipher: auto
-  http-opts:
     method: GET
     path:
     - /ABCDE
-  name: 16|Taiwan_None_vmess_1135
+  name: 16|Taiwan_None_vmess_1133
   network: http
   port: 58051
   server: 103.127.243.55
   tls: false
   type: vmess
   uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
-- name: 28|🇹🇼TW_1|7.0MB/s
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 16|Taiwan_None_vmess_1147
+  network: http
+  port: 54291
+  server: 103.127.243.66
+  type: vmess
+  uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
+- name: 28|🇹🇼TW_1|5.0MB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 37550
+  server: 1.161.50.107
+  skip-cert-verify: true
+  sni: edge-di.yuetong.online
+  tls: false
+  type: hysteria2
+- name: 28|🇹🇼TW_2|4.4MB/s
   password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
   port: 25608
   server: 1.161.52.121
@@ -121,7 +141,7 @@ proxies:
   sni: mx-cn9t.yuetong.online
   tls: false
   type: hysteria2
-- name: 28|🇹🇼TW_2|5.1MB/s
+- name: 28|🇹🇼TW_3|3.9MB/s
   password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
   port: 35518
   server: 1.161.52.121
@@ -129,7 +149,15 @@ proxies:
   sni: mx-cn9t.yuetong.online
   tls: false
   type: hysteria2
-- name: 28|🇹🇼TW_3|4.0MB/s
+- name: 28|🇹🇼TW_4|5.0MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 160.187.100.109
+  skip-cert-verify: true
+  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
+  tls: false
+  type: hysteria2
+- name: 28|🇹🇼TW_5|779KB/s
   password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
   port: 39727
   server: 1.161.50.107
@@ -139,36 +167,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 28|🇹🇼TW_4|2.6MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: B6r6wvfBmxpAz4lqw8Q6_riWhbCCtAuXmoNgS-sOelU
-    short-id: a13b96ad
-  server: 1.161.50.107
-  servername: www.canon.com
-  tls: false
-  type: vless
-  uuid: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
-- name: 28|🇹🇼TW_5|5.1MB/s
-  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
-  port: 37550
-  server: 1.161.50.107
-  skip-cert-verify: true
-  sni: edge-di.yuetong.online
-  tls: false
-  type: hysteria2
-- name: 28|🇹🇼TW_6|7.0MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 160.187.100.109
-  skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 28|🇹🇼TW_11|3.7MB/s
+  name: 28|🇹🇼TW_6|3.2MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -181,17 +180,49 @@ proxies:
   uuid: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 28|🇹🇼TW_12|5.1MB/s
+  name: 28|🇹🇼TW_7|2.3MB/s
   network: tcp
-  port: 8443
+  port: 443
   reality-opts:
-    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
-    short-id: 04d59340
-  server: tw06.352343.cc
-  servername: www.python.org
+    public-key: B6r6wvfBmxpAz4lqw8Q6_riWhbCCtAuXmoNgS-sOelU
+    short-id: a13b96ad
+  server: 1.161.50.107
+  servername: www.canon.com
   tls: false
   type: vless
-  uuid: 68077ffe-3368-4755-98d0-9367aa1ad6f2
+  uuid: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+- name: 28|🇹🇼TW_9|4.5MB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 39518
+  server: 1.161.52.121
+  skip-cert-verify: true
+  sni: mx-cn9t.yuetong.online
+  tls: false
+  type: hysteria2
+- name: 28|🇹🇼TW_10|3.6MB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 35938
+  server: 1.161.52.121
+  skip-cert-verify: true
+  sni: mx-cn9t.yuetong.online
+  tls: false
+  type: hysteria2
+- name: 28|🇹🇼TW_11|7.4MB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 25863
+  server: 1.161.52.121
+  skip-cert-verify: true
+  sni: mx-cn9t.yuetong.online
+  tls: false
+  type: hysteria2
+- name: 28|🇹🇼TW_12|2.6MB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 21274
+  server: 1.161.52.121
+  skip-cert-verify: true
+  sni: mx-cn9t.yuetong.online
+  tls: false
+  type: hysteria2
 - cipher: aes-256-cfb
   name: 29,30|SC-154.223.20.79-0184 | 0.053M...
   password: f8f7aCzcPKbsF8p3

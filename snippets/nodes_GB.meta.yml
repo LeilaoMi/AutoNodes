@@ -15,7 +15,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 10,13,16,24,35|美国5|@ripaojiedian
+  name: 10,13,16,24,25,35|美国5|@ripaojiedian
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -48,7 +48,7 @@ proxies:
     path: '%2Ftrj-ws'
 - alterId: 0
   cipher: auto
-  name: 15|英国_051704028
+  name: 15|英国_051710028
   network: tcp
   port: '180'
   server: 82.198.246.46
@@ -58,7 +58,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 15|英国_051704729
+  name: 15|英国_051710738
   network: ''
   port: '180'
   server: 82.198.246.46
@@ -68,7 +68,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 15|英国_051704739
+  name: 15|英国_051710747
   network: tcp
   port: '57091'
   server: 82.29.72.67
@@ -78,7 +78,7 @@ proxies:
   uuid: 8bd1fbf2-cef1-4e54-aa5b-ba7bde574dd9
 - alterId: 0
   cipher: auto
-  name: 15|英国_051704746
+  name: 15|英国_051710749
   network: tcp
   port: '57091'
   server: 82.29.72.67
@@ -494,7 +494,7 @@ proxies:
   server: 141.11.189.205
   type: ss
   udp: true
-- name: 28|🇬🇧GB_2|2.2MB/s
+- name: 28|🇬🇧GB_3|1.9MB/s
   password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
   port: 23402
   server: 23.81.33.209
@@ -502,19 +502,122 @@ proxies:
   sni: mx-71.yuetong.online
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 28|🇬🇧GB_4|525KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: KUD5RiuqMRrhOoN6X2FcXpYZfoN_7z8BcviSBlyxOBw
-    short-id: cbd8f4
-  server: 185.184.70.120
-  servername: time.is
+- name: 28|🇬🇧GB_4|1.4MB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 21425
+  server: 23.81.33.209
+  skip-cert-verify: true
+  sni: mx-71.yuetong.online
+  tls: false
+  type: hysteria2
+- name: 28|🇬🇧GB_5|1.4MB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 29562
+  server: 23.81.33.209
+  skip-cert-verify: true
+  sni: mx-71.yuetong.online
+  tls: false
+  type: hysteria2
+- name: 28|🇬🇧GB_8|2.6MB/s
+  network: ws
+  port: 8880
+  server: 45.67.215.30
   tls: false
   type: vless
-  uuid: 145adeb9-279d-4c1d-a97c-93fe28ca071e
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: '%2F'
+- name: 28|🇬🇧GB_9|2.6MB/s
+  network: ws
+  port: 8880
+  server: 185.133.35.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: '%2F'
+- name: 28|🇬🇧GB_10|560KB/s
+  network: ws
+  port: 2095
+  server: itarmy.com.ua
+  servername: cnmfangbinxing.cnmfangbinxing-k.workers.dev
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
+    path: '%2Ffp%3Drandomized'
+- name: 28|🇬🇧GB_11|2.5MB/s
+  network: ws
+  port: 8880
+  server: 50.62.198.50
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime39.workers.dev
+    path: '%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2Fyoutube%40ZYFXS%F0%9F%87%A8%F0%9F%87%B3'
+- name: 28|🇬🇧GB_12|2.4MB/s
+  network: ws
+  port: 8880
+  server: 160.153.138.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime04.workers.dev
+    path: '%2F'
+- name: 28|🇬🇧GB_13|1.6MB/s
+  network: ws
+  port: 8880
+  server: 198.71.189.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime04.workers.dev
+    path: '%2F'
+- name: 28|🇬🇧GB_14|3.0MB/s
+  network: ws
+  port: 8880
+  server: 166.62.109.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime18.workers.dev
+    path: '%2F'
+- name: 28|🇬🇧GB_15|2.3MB/s
+  network: ws
+  port: 8880
+  server: 104.238.69.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: '%2F'
+- name: 28|🇬🇧GB_16|2.4MB/s
+  network: ws
+  port: 8880
+  server: 198.71.190.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime05.workers.dev
+    path: '%2F'
 - cipher: aes-128-gcm
   name: 29|🇬🇧GB-212.102.53.194-0089
   password: shadowsocks
@@ -790,12 +893,6 @@ proxies:
   server: 82.38.31.103
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 30|🇬🇧GB-82.38.31.186-0069 | 45.41...
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.186
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 30|🇬🇧GB-138.68.153.223-0113 | 29....
   password: idMvoewrSyLLvEvP03k9zR
   port: 46576
@@ -876,6 +973,16 @@ proxies:
   server: 82.38.31.141
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 37,41|GB_speednode_0012
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '37,41,42|GB_speednode_0013 #1'

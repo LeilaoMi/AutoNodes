@@ -122,7 +122,7 @@ proxies:
   uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
 - alterId: 0
   cipher: auto
-  name: 15|日本_051704002
+  name: 15|日本_051710002
   network: ws
   port: '80'
   server: jp01.a0a.xyz
@@ -136,17 +136,17 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: 15|日本_051704335
+  name: 15|日本_051710005
   network: tcp
-  port: '23464'
-  server: 47.91.10.237
+  port: '41423'
+  server: bgroup.node1.v.nodelist-airport.com
   servername: ''
   tls: false
   type: vmess
-  uuid: a3de462b-0276-4003-8f34-536b0f9d340c
+  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46
 - alterId: 0
   cipher: auto
-  name: 15|日本_051704336
+  name: 15|日本_051710337
   network: ws
   port: '25686'
   server: jp02.a0a.xyz
@@ -160,7 +160,7 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: 15|日本_051704338
+  name: 15|日本_051710339
   network: ''
   port: '32221'
   server: 153.121.73.175
@@ -170,7 +170,7 @@ proxies:
   uuid: b06054ae-f249-438e-998a-8e67bd8df653
 - alterId: 0
   cipher: auto
-  name: 15|日本_051704339
+  name: 15|日本_051710340
   network: tcp
   port: '49803'
   server: 153.121.73.175
@@ -180,7 +180,7 @@ proxies:
   uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e
 - alterId: 1
   cipher: auto
-  name: 15|日本_051704340
+  name: 15|日本_051710341
   network: tcp
   port: '22324'
   server: 172.104.80.66
@@ -190,7 +190,7 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 15|日本_051704341
+  name: 15|日本_051710342
   network: ws
   port: '25686'
   server: 140.83.51.161
@@ -204,7 +204,7 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: 15|日本_051704342
+  name: 15|日本_051710343
   network: tcp
   port: '32221'
   server: 153.121.73.175
@@ -214,7 +214,7 @@ proxies:
   uuid: b06054ae-f249-438e-998a-8e67bd8df653
 - alterId: 0
   cipher: auto
-  name: 15|日本_051704343
+  name: 15|日本_051710344
   network: ws
   port: '80'
   server: 168.138.43.75
@@ -228,7 +228,7 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: 15|日本_051704345
+  name: 15|日本_051710345
   network: tcp
   port: '12376'
   server: 47.245.58.91
@@ -238,7 +238,7 @@ proxies:
   uuid: a3de462b-0276-4003-8f34-536b0f9d340c
 - alterId: 0
   cipher: auto
-  name: 15|日本_051704346
+  name: 15|日本_051710346
   network: tcp
   port: '53521'
   server: 47.74.59.195
@@ -248,7 +248,7 @@ proxies:
   uuid: 8bd1fbf2-cef1-4e54-aa5b-ba7bde574dd9
 - alterId: 0
   cipher: auto
-  name: 15|日本_051704347
+  name: 15|日本_051710347
   network: tcp
   port: '38510'
   server: 8.209.218.109
@@ -258,7 +258,7 @@ proxies:
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
 - alterId: 0
   cipher: auto
-  name: 15|日本_051704348
+  name: 15|日本_051710348
   network: tcp
   port: '12376'
   server: 47.245.58.91
@@ -268,7 +268,7 @@ proxies:
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
 - alterId: 0
   cipher: auto
-  name: 15|日本_051704367
+  name: 15|日本_051710349
   network: tcp
   port: '23464'
   server: 47.91.10.237
@@ -278,7 +278,7 @@ proxies:
   uuid: 8bd1fbf2-cef1-4e54-aa5b-ba7bde574dd9
 - alterId: 0
   cipher: auto
-  name: 15|日本_051704368
+  name: 15|日本_051710350
   network: tcp
   port: '12376'
   server: 47.245.58.91
@@ -287,8 +287,7 @@ proxies:
   type: vmess
   uuid: 1f2d0b2b-e214-4fc1-92cc-1c230be78d7c
 - alterId: 0
-  name: 16,24,34,35,38|🇭🇰HK香港4
-  network: tcp
+  name: 16,24,38|🇭🇰HK香港4
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 53018
   server: 35.72.163.56
@@ -297,8 +296,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 16,24,34,35|日本|@ripaojiedian
-  network: tcp
+- name: '16,24|11| |@ripaojiedian #1'
   password: BxceQaOe
   port: 443
   server: 116.80.61.236
@@ -306,8 +304,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - alterId: 0
-  name: 16,24,34,35,38|🇵JP日本3
-  network: tcp
+  name: 16,24,38|🇵JP日本3
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 11541
   server: 43.206.134.169
@@ -317,8 +314,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 16,24,34,35,38|🇬SG新加坡2
-  network: tcp
+  name: 16,24,38|🇬SG新加坡2
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 4840
   server: 35.72.163.56
@@ -328,8 +324,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 16,24,34,35,38|🇬SG新加坡4
-  network: tcp
+  name: 16,24,38|🇬SG新加坡4
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 2511
   server: 35.72.163.56
@@ -338,8 +333,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 16,24,34,35|新加坡3|@ripaojiedian
-  network: tcp
+- name: 16,24|11|🇸🇬 新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 1275
   server: 35.79.221.185
@@ -347,8 +341,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - alterId: 0
-  name: 16,24,34,35,38|🇸US美国16
-  network: tcp
+  name: 16,24,38|🇸US美国16
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 5224
   server: 43.206.134.169
@@ -357,11 +350,67 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 16|Japan_Tokyo_trojan_1116
+- name: 16,24,34,35|香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 4327
+  server: 18.183.160.17
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 16,24,34,35|日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 6463
+  server: 43.206.108.14
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 16,24,34,35|日本2|@ripaojiedian
+  network: tcp
+  password: a922dfbe65cf53c7bc225fcfeb6cedbc
+  port: 8066
+  server: 35.74.234.73
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 16,24,34,35|新加坡|@ripaojiedian
+  network: tcp
+  password: a922dfbe65cf53c7bc225fcfeb6cedbc
+  port: 4840
+  server: 3.114.7.15
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 16,24,34,35|新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 19465
+  server: 18.183.160.17
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 16,24,34,35|美国|@ripaojiedian
+  network: tcp
+  password: a922dfbe65cf53c7bc225fcfeb6cedbc
+  port: 6604
+  server: 3.114.7.15
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 16,24,34,35|美国2|@ripaojiedian
+  network: tcp
+  password: a922dfbe65cf53c7bc225fcfeb6cedbc
+  port: 2663
+  server: 3.114.7.15
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 16|Japan_Tokyo_trojan_1111
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 154.92.9.253
+  server: 154.92.9.25
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -370,18 +419,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 16|Japan_Osaka_trojan_1130
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 17222
-  server: 212.50.248.248
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 16|Japan_Osaka_trojan_1131
+- name: 16|Japan_Osaka_trojan_1132
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -392,23 +430,11 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: 16|Japan_None_trojan_1136
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 149.28.21.222
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
 - name: 16|Japan_None_trojan_1137
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 140.238.50.134
+  port: 16957
+  server: 150.230.214.172
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -417,7 +443,33 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 16|Japan_Tokyo_trojan_1139
+- name: 16|Japan_Osaka_trojan_1138
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 64.176.36.61
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 16|Japan_None_trojan_1139
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 18122
+  server: 155.248.168.35
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 16|Japan_Tokyo_trojan_1140
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 44004
@@ -430,20 +482,14 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 16|Japan_Tokyo_trojan_1141
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 176.97.70.51
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
 - name: 16|Japan_None_trojan_1142
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 45.32.51.200
+  server: 167.179.76.8
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
   ws-opts:
     headers:
@@ -453,7 +499,7 @@ proxies:
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 167.179.76.8
+  server: 45.32.51.200
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -475,11 +521,23 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 16|Japan_Tokyo_trojan_1147
+- name: 16|Japan_Tokyo_trojan_1146
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
   server: 103.125.216.22
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 16|Japan_None_trojan_11104
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 149.28.21.222
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -1119,49 +1177,41 @@ proxies:
   server: 13.231.229.41
   type: ss
   udp: true
+- name: 20|JP_@WangCai_8
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.168.136.2
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
 - name: 20|🇯🇵JP_@WangCai_8
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 13.112.138.56
+  server: 54.250.218.42
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: '20|🇯🇵JP_@WangCai_8 #1'
+- name: 20|🇵JP_@WangCai_8
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 13.115.3.140
+  server: 54.250.65.230
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: '20|🇯🇵JP_@WangCai_8 #2'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.231.162.174
+- name: 28|🇯🇵JP_2|4.4MB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 36290
+  server: 142.91.108.122
   skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: '20|🇯🇵JP_@WangCai_8 #3'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.231.21.110
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: '20|🇯🇵JP_@WangCai_8 #4'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 3.112.239.167
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
+  sni: app-0i.yuetong.online
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 28|🇯🇵JP_4|4.2MB/s
+  name: 28|🇯🇵JP_3|526KB/s
   network: tcp
   port: 443
   reality-opts:
@@ -1172,9 +1222,33 @@ proxies:
   tls: false
   type: vless
   uuid: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+- name: 28|🇯🇵JP_5|3.4MB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 33988
+  server: 58.191.44.237
+  skip-cert-verify: true
+  sni: srv-l9xp.yuetong.online
+  tls: false
+  type: hysteria2
+- name: 28|🇯🇵JP_6|3.6MB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 27452
+  server: 142.91.108.122
+  skip-cert-verify: true
+  sni: app-0i.yuetong.online
+  tls: false
+  type: hysteria2
+- name: 28|🇯🇵JP_7|2.9MB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 29398
+  server: 45.130.166.185
+  skip-cert-verify: true
+  sni: net-64.yuetong.online
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 28|🇯🇵JP_7|2.2MB/s
+  name: 28|🇯🇵JP_8|1.9MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -1185,53 +1259,72 @@ proxies:
   tls: false
   type: vless
   uuid: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
-- name: 28|🇯🇵JP_9|7.2MB/s
+- name: 28|🇯🇵JP_10|5.2MB/s
   password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
-  port: 36290
+  port: 25336
   server: 142.91.108.122
   skip-cert-verify: true
   sni: app-0i.yuetong.online
   tls: false
   type: hysteria2
-- name: 28|🇯🇵JP_11|5.1MB/s
+- name: 28|🇯🇵JP_11|5.0MB/s
   password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
-  port: 27452
+  port: 28804
   server: 142.91.108.122
   skip-cert-verify: true
   sni: app-0i.yuetong.online
   tls: false
   type: hysteria2
-- name: 28|🇯🇵JP_14|3.4MB/s
+- name: 28|🇯🇵JP_12|3.0MB/s
   password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
-  port: 33988
+  port: 26591
+  server: 45.130.166.185
+  skip-cert-verify: true
+  sni: net-64.yuetong.online
+  tls: false
+  type: hysteria2
+- name: 28|🇯🇵JP_13|3.8MB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 32517
+  server: 142.91.108.122
+  skip-cert-verify: true
+  sni: app-0i.yuetong.online
+  tls: false
+  type: hysteria2
+- name: 28|🇯🇵JP_14|5.4MB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 33706
+  server: 142.91.108.122
+  skip-cert-verify: true
+  sni: app-0i.yuetong.online
+  tls: false
+  type: hysteria2
+- name: 28|🇯🇵JP_15|2.8MB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 30045
   server: 58.191.44.237
   skip-cert-verify: true
   sni: srv-l9xp.yuetong.online
   tls: false
   type: hysteria2
-- name: 28|🇯🇵JP_15|2.8MB/s
+- name: 28|🇯🇵JP_16|2.5MB/s
   password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
-  port: 29398
+  port: 36110
+  server: 58.191.44.237
+  skip-cert-verify: true
+  sni: srv-l9xp.yuetong.online
+  tls: false
+  type: hysteria2
+- name: 28|🇯🇵JP_17|2.5MB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 28464
   server: 45.130.166.185
   skip-cert-verify: true
   sni: net-64.yuetong.online
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 28|🇯🇵JP_17|707KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GOwUerL0cbkU-AmvwELtaVn59tENMGdjoTgtwEJDakA
-    short-id: 0d9a211e
-  server: 45.130.166.185
-  servername: www.amazon.com
-  tls: false
-  type: vless
-  uuid: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
-- client-fingerprint: chrome
-  name: 28|🇯🇵JP_22|2.0MB/s
+  name: 28|🇯🇵JP_18|625KB/s
   network: ws
   port: 443
   server: 69.84.182.13
@@ -1243,38 +1336,19 @@ proxies:
     headers:
       Host: jp1-jp1.aiopen.sbs
     path: '%2Fkbjc%2Fjp1'
-- name: 28|🇯🇵JP_23|7.8MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.115.3.140
-  skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
-  tls: false
-  type: hysteria2
-- name: 28|🇯🇵JP_24|3.7MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.231.162.174
-  skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
-  tls: false
-  type: hysteria2
-- name: 28|🇯🇵JP_25|5.0MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.231.21.110
-  skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
-  tls: false
-  type: hysteria2
-- name: 28|🇯🇵JP_26|5.0MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 3.112.239.167
-  skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
-  tls: false
-  type: hysteria2
+- client-fingerprint: chrome
+  name: 28|🇯🇵JP_25|3.6MB/s
+  network: ws
+  port: 28480
+  server: 45.149.156.40
+  servername: guslef2w8oz12wv.ymj.xx.kg
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: guslef2w8oz12wv.ymj.xx.kg
+    path: '%2F%40Marisa_kristifp%3Dchrome'
 - cipher: aes-128-gcm
   name: 29,30|🇯🇵JP-149.22.87.204-0108 | 8.83...
   password: shadowsocks

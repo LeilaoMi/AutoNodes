@@ -98,14 +98,14 @@ proxies:
     headers:
       Host: vpn4.rnmcnm.com
     path: '%2F2mwmynj3fqzmy1xo'
-- name: 15|香港_051704285
+- name: 15|香港_051710274
   password: 67f4b8ff-15cf-3ec9-b09d-c31a4728c652
   port: 13555
   server: apple.1337.cx
   skip-cert-verify: false
   sni: windows11.dpdns.org
   type: trojan
-- name: 15|香港_051704286
+- name: 15|香港_051710275
   password: 67f4b8ff-15cf-3ec9-b09d-c31a4728c652
   port: 13777
   server: apple.1337.cx
@@ -114,7 +114,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 15|香港_051704287
+  name: 15|香港_051710276
   network: tcp
   port: '47286'
   server: 47.239.132.90
@@ -124,7 +124,7 @@ proxies:
   uuid: 8bd1fbf2-cef1-4e54-aa5b-ba7bde574dd9
 - alterId: 0
   cipher: auto
-  name: 15|香港_051704288
+  name: 15|香港_051710277
   network: tcp
   port: '11638'
   server: 27.122.57.43
@@ -134,7 +134,7 @@ proxies:
   uuid: 8bd1fbf2-cef1-4e54-aa5b-ba7bde574dd9
 - alterId: 0
   cipher: auto
-  name: 15|香港_051704290
+  name: 15|香港_051710278
   network: ws
   port: '37849'
   server: 154.205.136.122
@@ -148,7 +148,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 15|香港_051704291
+  name: 15|香港_051710279
   network: ''
   port: '22324'
   server: 213.156.141.52
@@ -158,7 +158,7 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 15|香港_051704292
+  name: 15|香港_051710280
   network: tcp
   port: '22324'
   server: 213.156.141.52
@@ -168,7 +168,7 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 15|香港_051704293
+  name: 15|香港_051710281
   network: tcp
   port: '11638'
   server: 27.122.57.43
@@ -178,7 +178,7 @@ proxies:
   uuid: a3de462b-0276-4003-8f34-536b0f9d340c
 - alterId: 0
   cipher: auto
-  name: 15|香港_051704294
+  name: 15|香港_051710282
   network: tcp
   port: '11638'
   server: 27.122.57.43
@@ -188,7 +188,7 @@ proxies:
   uuid: 1f2d0b2b-e214-4fc1-92cc-1c230be78d7c
 - alterId: 0
   cipher: auto
-  name: 15|香港_051704295
+  name: 15|香港_051710283
   network: tcp
   port: '47286'
   server: 47.239.132.90
@@ -198,7 +198,7 @@ proxies:
   uuid: a3de462b-0276-4003-8f34-536b0f9d340c
 - alterId: 0
   cipher: auto
-  name: 15|香港_051704296
+  name: 15|香港_051710284
   network: tcp
   port: '47286'
   server: 47.239.132.90
@@ -208,7 +208,7 @@ proxies:
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
 - alterId: 0
   cipher: auto
-  name: 15|香港_051704304
+  name: 15|香港_051710286
   network: ws
   port: '443'
   server: 47.238.82.7
@@ -222,7 +222,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 15|香港_051704305
+  name: 15|香港_051710287
   network: tcp
   port: '47286'
   server: 47.239.132.90
@@ -248,8 +248,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
-  name: 16,24,34,35,38|JP日
-  network: tcp
+  name: 16,24,38|JP日
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 3135
   server: 43.199.35.161
@@ -259,8 +258,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 16,24,34,35,38|🇸US美国24
-  network: tcp
+  name: 16,24,38|🇸US美国24
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 2663
   server: 16.163.138.96
@@ -269,7 +267,39 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 16|Hong Kong_None_trojan_1114
+- name: 16,24,34,35|香港3|@ripaojiedian
+  network: tcp
+  password: a922dfbe65cf53c7bc225fcfeb6cedbc
+  port: 2008
+  server: 16.162.22.74
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 16,24,34,35|日本3|@ripaojiedian
+  network: tcp
+  password: a922dfbe65cf53c7bc225fcfeb6cedbc
+  port: 11541
+  server: 16.162.22.74
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 16,24,34,35|新加坡2|@ripaojiedian
+  network: tcp
+  password: a922dfbe65cf53c7bc225fcfeb6cedbc
+  port: 2511
+  server: 16.162.22.74
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 16,24,34,35|美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 14919
+  server: 43.199.143.144
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 16|Hong Kong_None_trojan_1115
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -282,35 +312,45 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 16|Hong Kong_Central_trojan_1117
+- name: 16|Hong Kong_Hong Kong_trojan_111...
+  network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 219.76.13.177
+  server: 154.16.183.190
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 16|Hong Kong_Central_trojan_1118
+  network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 219.76.13.180
+  server: 219.76.13.166
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: 16|Hong Kong_Wanchai_trojan_1120
-  password: 8r<[9'l6hAO#8ZQi
-  port: 57537
-  server: 221.125.10.8
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: 16|Hong Kong_Central_trojan_1122
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 219.76.13.169
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 16|Hong Kong_Hong Kong_trojan_112...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 23779
+  server: 149.129.91.58
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '16|Hong Kong_Hong Kong_trojan_112... #1'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 46639
@@ -323,6 +363,30 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- name: '16|Hong Kong_Hong Kong_trojan_112... #2'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 212.192.15.182
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 16|Hong Kong_None_trojan_11121
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 45.156.22.52
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
 - cipher: aes-128-gcm
   name: 18|🇭🇰 HK 1 → tg@nicevpn123
   password: a-wym4ovY4Yw
@@ -446,53 +510,17 @@ proxies:
   type: vless
   udp: true
   uuid: a4caef32-090f-4f17-b7fa-2808f205620d
-- name: 28|🇭🇰HK_10|1.3MB/s
-  password: 843aaf07-7e86-456b-8bf4-3ba46a1d516e
-  port: 65535
-  server: 217.60.248.252
-  skip-cert-verify: true
-  sni: mirrors.xtom.hk
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 28|🇭🇰HK_11|596KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Csew0d2GnhUKWv4TADPkJp1FJ8mPI_omJVHZetrcnWA
-    short-id: 7d70069a4058
-  server: hk01zl.lovetutujiejie.com
-  servername: php.net
-  tls: false
-  type: vless
-  uuid: 99c7eda6-3815-4bb4-8e3e-ea82e42aaf66
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 28|🇭🇰HK_12|908KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: dY1hIydi_2X4kZMvTWg6hdvWvkqQoqmdE1IJL1m9NUw
-    short-id: c81d8438bf
-  server: hk05zl.lovetutujiejie.com
-  servername: php.net
-  tls: false
-  type: vless
-  uuid: 99c7eda6-3815-4bb4-8e3e-ea82e42aaf66
-- client-fingerprint: chrome
-  name: 28|🇭🇰HK_13|2.0MB/s
+- name: 28|🇭🇰HK_3|4.7MB/s
   network: ws
-  port: 8443
-  server: go.inmobi.com
-  servername: nginx-f.pages.dev
-  tls: true
+  port: 80
+  server: 104.18.81.143
+  tls: false
   type: vless
-  uuid: 0905460d-6edc-4a82-8ec8-6b76090b41c8
+  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
   ws-opts:
     headers:
-      Host: nginx-f.pages.dev
-    path: '%2F'
+      Host: amirvpn.amirhm00100.workers.dev
+    path: '%2F%3Fed%3D2048'
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

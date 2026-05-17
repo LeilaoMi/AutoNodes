@@ -75,6 +75,20 @@ proxies:
     headers:
       Host: sni.111000.dns.army
 - alterId: 0
+  cipher: none
+  name: 15|CF中转_0517107712
+  network: ws
+  port: '8443'
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
   cipher: auto
   name: 25|🇨🇳 _TW_台湾->🇺🇸_US_美国
   network: ws

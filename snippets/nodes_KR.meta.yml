@@ -633,17 +633,7 @@ proxies:
     path: '%2Ftrj-ws'
 - alterId: 0
   cipher: auto
-  name: 15|韩国_051704007
-  network: tcp
-  port: '59312'
-  server: bgroup.node2.v.nodelist-airport.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46
-- alterId: 0
-  cipher: auto
-  name: 15|韩国_051704402
+  name: 15|韩国_051710417
   network: ws
   port: '443'
   server: 152.67.208.31
@@ -655,19 +645,6 @@ proxies:
     headers:
       Host: chuncheon03.zgjok.com
     path: /
-- name: 16|South Korea_Anyang-si_trojan_1...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 10001
-  server: 218.155.125.99
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
   name: 18|🇰🇷 KR 1 → tg@nicevpn123
@@ -1007,7 +984,7 @@ proxies:
   server: 13.125.19.50
   type: ss
   udp: true
-- name: 28|🇰🇷KR_4|4.5MB/s
+- name: 28|🇰🇷KR_1|4.4MB/s
   password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
   port: 22194
   server: 27.102.138.63
@@ -1015,50 +992,27 @@ proxies:
   sni: up-ye.yuetong.online
   tls: false
   type: hysteria2
+- name: 28|🇰🇷KR_3|2.2MB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 21019
+  server: 27.102.138.63
+  skip-cert-verify: true
+  sni: up-ye.yuetong.online
+  tls: false
+  type: hysteria2
+- name: 28|🇰🇷KR_4|628KB/s
+  password: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
+  port: 32708
+  server: 27.102.138.63
+  skip-cert-verify: true
+  sni: up-ye.yuetong.online
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  name: 28|🇰🇷KR_5|3.1MB/s
+  name: 28|🇰🇷KR_9|2.5MB/s
   network: ws
   port: 18086
   server: 61.106.155.107
-  servername: klng2.stream-cdn.sh21.eu.org
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: klng2.stream-cdn.sh21.eu.org
-    path: '%2Fdanfeng%3Fed%3D2560fp%3Dfirefox'
-- name: 28|🇰🇷KR_7|2.1MB/s
-  network: ws
-  port: 12300
-  server: 121.140.34.163
-  servername: klng2.stream-cdn.sh21.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: klng2.stream-cdn.sh21.eu.org
-    path: '%2Fdanfeng%3Fed%3D2560'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 28|🇰🇷KR_9|2.0MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: kJUhykaj1FkqLUFa7voPRcavHTCXslwxoVeqCbJtzw4
-    short-id: 906152e4
-  server: 27.102.138.63
-  servername: www.servicenow.com
-  tls: false
-  type: vless
-  uuid: efdf452e-0f4e-4f14-ae07-0da3b8cb623b
-- client-fingerprint: chrome
-  name: 28|🇰🇷KR_11|2.2MB/s
-  network: ws
-  port: 13722
-  server: 121.189.96.153
   servername: klng2.stream-cdn.sh21.eu.org
   tls: true
   type: vless
