@@ -1,12 +1,12 @@
 proxies:
-- name: 34|香港_051719253
+- name: 34|香港_051723258
   password: 67f4b8ff-15cf-3ec9-b09d-c31a4728c652
   port: 13555
   server: apple.1337.cx
   skip-cert-verify: false
   sni: windows11.dpdns.org
   type: trojan
-- name: 34|香港_051719254
+- name: 34|香港_051723259
   password: 67f4b8ff-15cf-3ec9-b09d-c31a4728c652
   port: 13777
   server: apple.1337.cx
@@ -15,7 +15,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 34|香港_051719255
+  name: 34|香港_051723260
   network: tcp
   port: '47286'
   server: 47.239.132.90
@@ -25,7 +25,7 @@ proxies:
   uuid: 8bd1fbf2-cef1-4e54-aa5b-ba7bde574dd9
 - alterId: 0
   cipher: auto
-  name: 34|香港_051719257
+  name: 34|香港_051723261
   network: ws
   port: '37849'
   server: 154.205.136.122
@@ -39,7 +39,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 34|香港_051719258
+  name: 34|香港_051723262
   network: ''
   port: '22324'
   server: 213.156.141.52
@@ -49,7 +49,7 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 34|香港_051719259
+  name: 34|香港_051723263
   network: tcp
   port: '22324'
   server: 213.156.141.52
@@ -59,17 +59,7 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 34|香港_051719261
-  network: tcp
-  port: '47286'
-  server: 47.239.132.90
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a3de462b-0276-4003-8f34-536b0f9d340c
-- alterId: 0
-  cipher: auto
-  name: 34|香港_051719263
+  name: 34|香港_051723265
   network: ws
   port: '443'
   server: 47.238.82.7
@@ -83,14 +73,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 34|香港_051719264
+  name: 34|香港_051723274
   network: tcp
-  port: '47286'
-  server: 47.239.132.90
+  port: '11638'
+  server: 27.122.57.43
   servername: ''
   tls: false
   type: vmess
-  uuid: 1f2d0b2b-e214-4fc1-92cc-1c230be78d7c
+  uuid: a3de462b-0276-4003-8f34-536b0f9d340c
 - alterId: 2
   cipher: auto
   name: 35,53,67|🇭🇰 香港|@ripaojiedian
@@ -120,7 +110,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
-  name: 35,53,67,68,71|JP
+  name: 35,53,67,68,71|🇵JP日本5 157.1MB/s
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 11541
@@ -131,7 +121,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 35,53,67,68,71|🇬SG新加坡2
+  name: 35,53,67,68,71|🇬SG新加坡4
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 2511
@@ -265,6 +255,114 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- cipher: aes-128-gcm
+  name: 38|🇭🇰 HK 1 → tg@nicevpn123
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: false
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.223.223
+  type: ss
+  udp: true
+- name: 38|🇭🇰 HK 10 → tg@nicevpn123
+  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
+  port: 443
+  server: chjs.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 38|🇭🇰 HK 11 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 182.16.1.194
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    headers:
+      Host: 182.16.1.194
+    path: /opt/video/images
+- name: 38|🇭🇰 HK 2 → tg@nicevpn123
+  password: 2b38ff78-05bb-4261-895c-440950cf0dbd
+  port: 42030
+  server: 210.17.253.122
+  skip-cert-verify: true
+  sni: hkg01.service.nahidacloud.top
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: 38|🇭🇰 HK 3 → tg@nicevpn123
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: false
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.139.54
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 38|🇭🇰 HK 4 → tg@nicevpn123
+  network: ws
+  port: 55576
+  server: 202.81.231.30
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 32daf1ff-4b08-4c22-b997-1c24ff34c43a
+  ws-opts:
+    path: /
+- alterId: 32
+  cipher: auto
+  name: 38|🇭🇰 HK 8 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: hrgdvpn.flycdnedc55.vip
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    headers:
+      Host: hrgdvpn.flycdnedc55.vip
+    path: /opt/video/images
+- alterId: 0
+  cipher: auto
+  name: 38|🇭🇰 HK 6 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 182.16.1.194
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    path: /opt/video/images
+- name: 38|🇭🇰 HK 9 → tg@nicevpn123
+  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
+  port: 443
+  server: hkjs.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -531,7 +629,27 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
-  name: 71|🇰HK香港2
+  name: 71|🇭🇰HK香港2
+  password: BxceQaOe
+  port: 11233
+  server: 18.162.145.230
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 71|🇭🇰HK香港3
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  port: 8443
+  server: 47.82.155.79
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 71|🇭🇰HK香港4
   password: BxceQaOe
   port: 4327
   server: 18.183.160.17
@@ -541,23 +659,12 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 71|🇭🇰HK香港3
-  network: ws
+  name: 71|🇭🇰HK香港5
   password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 23779
-  server: 149.129.91.58
+  port: 443
+  server: 213.176.92.138
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  name: 71|🇭🇰HK香港4
-  password: BxceQaOe
-  port: 11233
-  server: 18.162.145.230
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
   tls: true
   type: trojan
   udp: true
