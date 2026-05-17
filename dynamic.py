@@ -75,8 +75,26 @@ def w1770946466():
 def peasoft():
     return session.get("https://gist.githubusercontent.com/peasoft/8a0613b7a2be881d1b793a6bb7536281/raw/").text
 
+def crossxx_free():
+    """从 crossxx-labs/free-proxy 的 README 动态获取最新订阅链接"""
+    try:
+        res = session.get(
+            "https://raw.githubusercontent.com/crossxx-labs/free-proxy/main/README.md",
+            timeout=10
+        )
+        if res.status_code != 200:
+            return None
+        # 提取所有订阅链接（vmess/ssr/hysteria 都抓）
+        urls = re.findall(
+            r'https://clash\.crossxx\.com/sub/\w+/\d+',
+            res.text
+        )
+        return list(set(urls)) if urls else None
+    except:
+        return None
+        
 AUTOURLS = []
-AUTOFETCH = [peasoft]
+AUTOFETCH = [peasoft,crossxx_free]
 
 if __name__ == '__main__':
     print("URL 抓取："+', '.join([_.__name__ for _ in AUTOURLS]))
